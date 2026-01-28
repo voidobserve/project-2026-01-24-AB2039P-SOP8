@@ -1,0 +1,69 @@
+{
+    "configurations": [
+        {
+            "name": "client",
+            "includePath": [
+                "${workspaceFolder}/header",
+                "${workspaceFolder}/libs",
+                "${workspaceFolder}/libs/ble",
+                "${workspaceFolder}/libs/cpu",
+                "${workspaceFolder}/libs/usb",
+                "${workspaceFolder}/driver",
+                "${workspaceFolder}/modules/notch_iir",
+                "${workspaceFolder}/project/ble_peripheral",
+                "${workspaceFolder}/project/ble_peripheral/app",
+                "${workspaceFolder}/project/ble_peripheral/ble",
+                "${workspaceFolder}/project/ble_peripheral/bsp",
+                "${workspaceFolder}/project/ble_peripheral/prod_test",
+                "${workspaceFolder}/project/ble_peripheral/prod_test/iodm",
+                "${workspaceFolder}/project/ble_peripheral/prod_test/tbox",
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include",
+                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+                ,"CLIENT"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+        ,{
+            "name": "server",
+            "includePath": [
+                "${workspaceFolder}/header",
+                "${workspaceFolder}/libs",
+                "${workspaceFolder}/libs/ble",
+                "${workspaceFolder}/libs/cpu",
+                "${workspaceFolder}/libs/usb",
+                "${workspaceFolder}/driver",
+                "${workspaceFolder}/modules/notch_iir",
+                "${workspaceFolder}/project/ble_peripheral",
+                "${workspaceFolder}/project/ble_peripheral/app",
+                "${workspaceFolder}/project/ble_peripheral/ble",
+                "${workspaceFolder}/project/ble_peripheral/bsp",
+                "${workspaceFolder}/project/ble_peripheral/prod_test",
+                "${workspaceFolder}/project/ble_peripheral/prod_test/iodm",
+                "${workspaceFolder}/project/ble_peripheral/prod_test/tbox",
+                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include",
+                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

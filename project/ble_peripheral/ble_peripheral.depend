@@ -1,0 +1,1375 @@
+# depslib dependency file v1.0
+1742476140 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_clk.c
+	"driver_clk.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_clk.h
+	"global.h"
+	"api.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\global.h
+	<stddef.h>
+	<stdarg.h>
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	"typedef.h"
+	"macro.h"
+	"clib.h"
+	"sfr.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\typedef.h
+
+1731036504 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\macro.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\clib.h
+
+1724068380 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\sfr.h
+
+1742389006 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\api.h
+	"api_interrupt.h"
+	"api_btstack.h"
+	"api_cm.h"
+	"api_update.h"
+	"api_sysclk.h"
+	"api_msg.h"
+	"api_sys.h"
+	"api_pwr.h"
+	"api_key.h"
+	"api_list.h"
+	"api_mic.h"
+	"api_codec.h"
+	"api_usb.h"
+	"api_device.h"
+	"api_os.h"
+	"api_ring_buf.h"
+
+1726041688 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_interrupt.h
+
+1764228633 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\ble\api_btstack.h
+	"btstack_define.h"
+
+1764228633 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\ble\btstack_define.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_cm.h
+
+1729057568 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_update.h
+
+1723708042 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_sysclk.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_msg.h
+
+1726816676 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_sys.h
+
+1741831358 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_pwr.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_key.h
+
+1761795472 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_list.h
+
+1743240468 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_mic.h
+
+1742389006 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_codec.h
+
+1765178034 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\usb\api_usb.h
+	"usb_define.h"
+
+1759131114 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\usb\usb_define.h
+
+1738835526 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_device.h
+
+1730944968 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_os.h
+
+1723532640 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\libs\cpu\api_ring_buf.h
+
+1765592850 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_gpio.c
+	"driver_gpio.h"
+
+1749800250 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_gpio.h
+	"driver_com.h"
+
+1742887984 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_com.h
+	"global.h"
+	"api.h"
+	"driver_clk.h"
+
+1723883750 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_hsuart.c
+	"driver_hsuart.h"
+
+1723883750 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_hsuart.h
+	"driver_com.h"
+
+1723725660 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_keyscan.c
+	"driver_keyscan.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_keyscan.h
+	"driver_com.h"
+
+1742476140 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_ledc.c
+	"driver_ledc.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_ledc.h
+	"driver_com.h"
+
+1765597292 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_lowpwr.c
+	"driver_lowpwr.h"
+	"driver_saradc.h"
+
+1749800250 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_lowpwr.h
+	"driver_com.h"
+	"driver_gpio.h"
+
+1729769858 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_saradc.h
+	"driver_com.h"
+
+1730711740 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_rtc.c
+	"driver_rtc.h"
+
+1730458464 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_rtc.h
+	"driver_com.h"
+
+1742887984 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_saradc.c
+	"driver_saradc.h"
+
+1726143140 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_spi.c
+	"driver_spi.h"
+
+1726143140 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_spi.h
+	"driver_com.h"
+
+1731308924 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_tmr.c
+	"driver_tmr.h"
+
+1724643332 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_tmr.h
+	"driver_com.h"
+
+1722848330 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_uart.c
+	"driver_uart.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_uart.h
+	"driver_com.h"
+
+1725959716 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_wdt.c
+	"driver_wdt.h"
+
+1725959716 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\driver\driver_wdt.h
+	"driver_com.h"
+
+1767407007 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func.c
+	"include.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\header\include.h
+	"global.h"
+	"xcfg.h"
+	"config.h"
+	"api.h"
+	"bsp.h"
+
+1767078719 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\xcfg.h
+
+1769236125 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\config.h
+	"config_define.h"
+	"config_extra.h"
+
+1747795268 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\config_define.h
+
+1767402104 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\config_extra.h
+
+1767403592 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp.h
+	"bsp_param.h"
+	"bsp_sys.h"
+	"ble_init.h"
+	"ble_client.h"
+	"ble_proc.h"
+	"bsp_uart_debug.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+	"bsp_saradc_tsen.h"
+	"bsp_key.h"
+	"bsp_huart_iodm.h"
+	"bsp_uart_transfer.h"
+	"func.h"
+	"msg.h"
+	"prod_test.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_param.h
+
+1726198118 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_sys.h
+
+1747795268 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_init.h
+	"ble_service.h"
+	"ble_alarm.h"
+	"ble_profile.h"
+	"ble_adv.h"
+
+1733542410 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_service.h
+
+1767074489 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_alarm.h
+
+1767075986 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_profile.h
+
+1733542410 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_adv.h
+
+1767407849 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_client.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_proc.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_uart_debug.h
+
+1753104632 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc.h
+
+1753104632 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_vbat.h
+
+1729148088 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_tsen.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_key.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_huart_iodm.h
+
+1767407005 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_uart_transfer.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func.h
+	"func_bt.h"
+	"func_le_fcc.h"
+	"func_le_bqb_rf.h"
+	"func_iodm.h"
+	"func_idle.h"
+	"func_lowpwr.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_bt.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_le_fcc.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_le_bqb_rf.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_iodm.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_idle.h
+
+1726198118 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_lowpwr.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\msg.h
+
+1725498886 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\prod_test.h
+	"prod_test_iodm.h"
+	"prod_test_tbox.h"
+
+1725498886 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\iodm\prod_test_iodm.h
+
+1728459396 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\tbox\prod_test_tbox.h
+	"include.h"
+	"tbox_key.h"
+
+1725498886 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\tbox\tbox_key.h
+	"include.h"
+
+1767075616 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_bt.c
+	"include.h"
+	"func.h"
+
+1723082996 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_idle.c
+	"include.h"
+	"func.h"
+	"func_idle.h"
+
+1752652174 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_iodm.c
+	"include.h"
+	"func.h"
+
+1752652174 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_le_bqb_rf.c
+	"include.h"
+	"func.h"
+
+1752652174 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_le_fcc.c
+	"include.h"
+	"func.h"
+
+1767401839 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_lowpwr.c
+	"include.h"
+	"driver_lowpwr.h"
+	"driver_gpio.h"
+	"ble_user_service.h"
+	"bsp_io_key.h"
+
+1767065417 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_user_service.h
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_io_key.h
+	"driver_gpio.h"
+
+1751025378 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_tbox.c
+	"include.h"
+	"func.h"
+	"func_tbox.h"
+	"prod_test_tbox.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\app\func_tbox.h
+
+1767409947 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_adv.c
+	"include.h"
+
+1733542410 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_alarm.c
+	"include.h"
+
+1767419946 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_client.c
+	"include.h"
+	"ble_client.h"
+
+1767401871 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_fota_service.c
+	"include.h"
+
+1767410762 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_init.c
+	"include.h"
+	"ble_client.h"
+	"ble_init.h"
+
+1767419776 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_proc.c
+	"include.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_fota_service.h
+
+1767084054 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_profile.c
+	"include.h"
+
+1733542410 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_service.c
+	"include.h"
+	"ble_service.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1767419661 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ble\ble_user_service.c
+	"include.h"
+
+1739435984 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_huart.c
+	"include.h"
+	"bsp_huart.h"
+	"api.h"
+	"driver_com.h"
+	"driver_hsuart.h"
+	"ble_init.h"
+	"driver_gpio.h"
+	"config.h"
+
+1722848330 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_huart.h
+
+1722848330 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_huart_iodm.c
+	"include.h"
+	"bsp_huart_iodm.h"
+	"driver_hsuart.h"
+	"prod_test_iodm.h"
+	"driver_gpio.h"
+
+1767402061 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_io_key.c
+	"include.h"
+	"bsp_io_key.h"
+
+1722848330 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_key.c
+	"include.h"
+	"driver_com.h"
+	"bsp_saradc_key.h"
+	"bsp_io_key.h"
+
+1723810374 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_key.h
+
+1767402074 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_param.c
+	"include.h"
+
+1753104632 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1723810374 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_key.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_key.h"
+	"bsp_key.h"
+
+1729149200 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_tsen.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_tsen.h"
+
+1753104632 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_saradc_vbat.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1767419558 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_sys.c
+	"include.h"
+	"driver_lowpwr.h"
+	"bsp_saradc_key.h"
+
+1767402086 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_uart_debug.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_debug.h"
+
+1767419465 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\bsp\bsp_uart_transfer.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_transfer.h"
+
+1730453290 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\main.c
+	"include.h"
+	"driver_lowpwr.h"
+
+1747795268 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\output\bin\app.xm
+	"config.h"
+
+1722848330 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\output\bin\download.xm
+
+1748520714 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\output\bin\xcfg.xm
+
+1725498886 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\iodm\prod_test_iodm.c
+	"include.h"
+	"prod_test_iodm.h"
+	"bsp_huart_iodm.h"
+
+1725498886 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\prod_test.c
+	"include.h"
+	"prod_test.h"
+
+1738834130 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\tbox\prod_test_tbox.c
+	"include.h"
+	"tbox_key.h"
+	"tbox_voice.h"
+	"prod_test_tbox.h"
+
+1728459396 f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\tbox\tbox_voice.h
+	"include.h"
+
+1725498886 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\prod_test\tbox\tbox_key.c
+	"include.h"
+	"tbox_key.h"
+	"prod_test_tbox.h"
+
+1752647068 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\ram.ld
+	"config.h"
+
+1748413738 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\strong_ble.c
+	"include.h"
+
+1753164888 source:f:\µ¥Æ¬»úÏîÄ¿\d¶¦Èó\app\project\ble_peripheral\strong_symbol.c
+	"include.h"
+	"driver_uart.h"
+
+1742476140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_clk.c
+	"driver_clk.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_clk.h
+	"global.h"
+	"api.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\global.h
+	<stddef.h>
+	<stdarg.h>
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	"typedef.h"
+	"macro.h"
+	"clib.h"
+	"sfr.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\typedef.h
+
+1731036504 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\macro.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\clib.h
+
+1724068380 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\sfr.h
+
+1742389006 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\api.h
+	"api_interrupt.h"
+	"api_btstack.h"
+	"api_cm.h"
+	"api_update.h"
+	"api_sysclk.h"
+	"api_msg.h"
+	"api_sys.h"
+	"api_pwr.h"
+	"api_key.h"
+	"api_list.h"
+	"api_mic.h"
+	"api_codec.h"
+	"api_usb.h"
+	"api_device.h"
+	"api_os.h"
+	"api_ring_buf.h"
+
+1726041688 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_interrupt.h
+
+1764228633 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\ble\api_btstack.h
+	"btstack_define.h"
+
+1764228633 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\ble\btstack_define.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_cm.h
+
+1729057568 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_update.h
+
+1723708042 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_sysclk.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_msg.h
+
+1726816676 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_sys.h
+
+1741831358 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_pwr.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_key.h
+
+1761795472 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_list.h
+
+1743240468 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_mic.h
+
+1742389006 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_codec.h
+
+1765178034 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\usb\api_usb.h
+	"usb_define.h"
+
+1759131114 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\usb\usb_define.h
+
+1738835526 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_device.h
+
+1730944968 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_os.h
+
+1723532640 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\libs\cpu\api_ring_buf.h
+
+1765592850 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_gpio.c
+	"driver_gpio.h"
+
+1749800250 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_gpio.h
+	"driver_com.h"
+
+1742887984 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_com.h
+	"global.h"
+	"api.h"
+	"driver_clk.h"
+
+1723883750 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_hsuart.c
+	"driver_hsuart.h"
+
+1723883750 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_hsuart.h
+	"driver_com.h"
+
+1723725660 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_keyscan.c
+	"driver_keyscan.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_keyscan.h
+	"driver_com.h"
+
+1742476140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_ledc.c
+	"driver_ledc.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_ledc.h
+	"driver_com.h"
+
+1765597292 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_lowpwr.c
+	"driver_lowpwr.h"
+	"driver_saradc.h"
+
+1749800250 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_lowpwr.h
+	"driver_com.h"
+	"driver_gpio.h"
+
+1729769858 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_saradc.h
+	"driver_com.h"
+
+1730711740 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_rtc.c
+	"driver_rtc.h"
+
+1730458464 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_rtc.h
+	"driver_com.h"
+
+1742887984 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_saradc.c
+	"driver_saradc.h"
+
+1726143140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_spi.c
+	"driver_spi.h"
+
+1726143140 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_spi.h
+	"driver_com.h"
+
+1731308924 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_tmr.c
+	"driver_tmr.h"
+
+1724643332 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_tmr.h
+	"driver_com.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_uart.c
+	"driver_uart.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_uart.h
+	"driver_com.h"
+
+1725959716 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_wdt.c
+	"driver_wdt.h"
+
+1725959716 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\driver\driver_wdt.h
+	"driver_com.h"
+
+1767407007 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func.c
+	"include.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\header\include.h
+	"global.h"
+	"xcfg.h"
+	"config.h"
+	"api.h"
+	"bsp.h"
+
+1767078719 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\xcfg.h
+
+1769240557 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config.h
+	"config_define.h"
+	"config_extra.h"
+
+1747795268 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config_define.h
+
+1767402104 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config_extra.h
+
+1767403592 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp.h
+	"bsp_param.h"
+	"bsp_sys.h"
+	"ble_init.h"
+	"ble_client.h"
+	"ble_proc.h"
+	"bsp_uart_debug.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+	"bsp_saradc_tsen.h"
+	"bsp_key.h"
+	"bsp_huart_iodm.h"
+	"bsp_uart_transfer.h"
+	"func.h"
+	"msg.h"
+	"prod_test.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_param.h
+
+1726198118 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_sys.h
+
+1747795268 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_init.h
+	"ble_service.h"
+	"ble_alarm.h"
+	"ble_profile.h"
+	"ble_adv.h"
+
+1733542410 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_service.h
+
+1767074489 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_alarm.h
+
+1767075986 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_profile.h
+
+1733542410 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_adv.h
+
+1767407849 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_client.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_proc.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_debug.h
+
+1753104632 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc.h
+
+1753104632 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_vbat.h
+
+1729148088 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_tsen.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_key.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart_iodm.h
+
+1767407005 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_transfer.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func.h
+	"func_bt.h"
+	"func_le_fcc.h"
+	"func_le_bqb_rf.h"
+	"func_iodm.h"
+	"func_idle.h"
+	"func_lowpwr.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_bt.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_fcc.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_bqb_rf.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_iodm.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_idle.h
+
+1726198118 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_lowpwr.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\msg.h
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\prod_test.h
+	"prod_test_iodm.h"
+	"prod_test_tbox.h"
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\iodm\prod_test_iodm.h
+
+1728459396 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\prod_test_tbox.h
+	"include.h"
+	"tbox_key.h"
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_key.h
+	"include.h"
+
+1767075616 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_bt.c
+	"include.h"
+	"func.h"
+
+1723082996 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_idle.c
+	"include.h"
+	"func.h"
+	"func_idle.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_iodm.c
+	"include.h"
+	"func.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_bqb_rf.c
+	"include.h"
+	"func.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_fcc.c
+	"include.h"
+	"func.h"
+
+1767401839 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_lowpwr.c
+	"include.h"
+	"driver_lowpwr.h"
+	"driver_gpio.h"
+	"ble_user_service.h"
+	"bsp_io_key.h"
+
+1767065417 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_user_service.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_io_key.h
+	"driver_gpio.h"
+
+1751025378 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_tbox.c
+	"include.h"
+	"func.h"
+	"func_tbox.h"
+	"prod_test_tbox.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_tbox.h
+
+1767409947 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_adv.c
+	"include.h"
+
+1733542410 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_alarm.c
+	"include.h"
+
+1767419946 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_client.c
+	"include.h"
+	"ble_client.h"
+
+1767401871 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_fota_service.c
+	"include.h"
+
+1767410762 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_init.c
+	"include.h"
+	"ble_client.h"
+	"ble_init.h"
+
+1767419776 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_proc.c
+	"include.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_fota_service.h
+
+1767084054 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_profile.c
+	"include.h"
+
+1733542410 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_service.c
+	"include.h"
+	"ble_service.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1767419661 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_user_service.c
+	"include.h"
+
+1739435984 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart.c
+	"include.h"
+	"bsp_huart.h"
+	"api.h"
+	"driver_com.h"
+	"driver_hsuart.h"
+	"ble_init.h"
+	"driver_gpio.h"
+	"config.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart.h
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart_iodm.c
+	"include.h"
+	"bsp_huart_iodm.h"
+	"driver_hsuart.h"
+	"prod_test_iodm.h"
+	"driver_gpio.h"
+
+1767402061 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_io_key.c
+	"include.h"
+	"bsp_io_key.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_key.c
+	"include.h"
+	"driver_com.h"
+	"bsp_saradc_key.h"
+	"bsp_io_key.h"
+
+1723810374 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_key.h
+
+1767402074 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_param.c
+	"include.h"
+
+1753104632 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1723810374 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_key.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_key.h"
+	"bsp_key.h"
+
+1729149200 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_tsen.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_tsen.h"
+
+1753104632 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_vbat.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1767419558 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_sys.c
+	"include.h"
+	"driver_lowpwr.h"
+	"bsp_saradc_key.h"
+
+1767402086 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_debug.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_debug.h"
+
+1767419465 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_transfer.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_transfer.h"
+
+1730453290 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\main.c
+	"include.h"
+	"driver_lowpwr.h"
+
+1747795268 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\app.xm
+	"config.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\download.xm
+
+1748520714 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\xcfg.xm
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\iodm\prod_test_iodm.c
+	"include.h"
+	"prod_test_iodm.h"
+	"bsp_huart_iodm.h"
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\prod_test.c
+	"include.h"
+	"prod_test.h"
+
+1738834130 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\prod_test_tbox.c
+	"include.h"
+	"tbox_key.h"
+	"tbox_voice.h"
+	"prod_test_tbox.h"
+
+1728459396 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_voice.h
+	"include.h"
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_key.c
+	"include.h"
+	"tbox_key.h"
+	"prod_test_tbox.h"
+
+1752647068 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ram.ld
+	"config.h"
+
+1748413738 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\strong_ble.c
+	"include.h"
+
+1753164888 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\strong_symbol.c
+	"include.h"
+	"driver_uart.h"
+
+1742476140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_clk.c
+	"driver_clk.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_clk.h
+	"global.h"
+	"api.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\global.h
+	<stddef.h>
+	<stdarg.h>
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+	"typedef.h"
+	"macro.h"
+	"clib.h"
+	"sfr.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\typedef.h
+
+1731036504 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\macro.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\clib.h
+
+1724068380 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\sfr.h
+
+1742389006 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\api.h
+	"api_interrupt.h"
+	"api_btstack.h"
+	"api_cm.h"
+	"api_update.h"
+	"api_sysclk.h"
+	"api_msg.h"
+	"api_sys.h"
+	"api_pwr.h"
+	"api_key.h"
+	"api_list.h"
+	"api_mic.h"
+	"api_codec.h"
+	"api_usb.h"
+	"api_device.h"
+	"api_os.h"
+	"api_ring_buf.h"
+
+1726041688 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_interrupt.h
+
+1764228633 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\ble\api_btstack.h
+	"btstack_define.h"
+
+1764228633 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\ble\btstack_define.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_cm.h
+
+1729057568 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_update.h
+
+1723708042 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_sysclk.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_msg.h
+
+1726816676 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_sys.h
+
+1741831358 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_pwr.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_key.h
+
+1761795472 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_list.h
+
+1743240468 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_mic.h
+
+1742389006 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_codec.h
+
+1765178034 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\usb\api_usb.h
+	"usb_define.h"
+
+1759131114 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\usb\usb_define.h
+
+1738835526 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_device.h
+
+1730944968 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_os.h
+
+1723532640 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\libs\cpu\api_ring_buf.h
+
+1765592850 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_gpio.c
+	"driver_gpio.h"
+
+1749800250 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_gpio.h
+	"driver_com.h"
+
+1742887984 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_com.h
+	"global.h"
+	"api.h"
+	"driver_clk.h"
+
+1723883750 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_hsuart.c
+	"driver_hsuart.h"
+
+1723883750 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_hsuart.h
+	"driver_com.h"
+
+1723725660 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_keyscan.c
+	"driver_keyscan.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_keyscan.h
+	"driver_com.h"
+
+1742476140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_ledc.c
+	"driver_ledc.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_ledc.h
+	"driver_com.h"
+
+1765597292 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_lowpwr.c
+	"driver_lowpwr.h"
+	"driver_saradc.h"
+
+1749800250 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_lowpwr.h
+	"driver_com.h"
+	"driver_gpio.h"
+
+1729769858 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_saradc.h
+	"driver_com.h"
+
+1730711740 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_rtc.c
+	"driver_rtc.h"
+
+1730458464 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_rtc.h
+	"driver_com.h"
+
+1742887984 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_saradc.c
+	"driver_saradc.h"
+
+1726143140 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_spi.c
+	"driver_spi.h"
+
+1726143140 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_spi.h
+	"driver_com.h"
+
+1731308924 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_tmr.c
+	"driver_tmr.h"
+
+1724643332 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_tmr.h
+	"driver_com.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_uart.c
+	"driver_uart.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_uart.h
+	"driver_com.h"
+
+1725959716 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_wdt.c
+	"driver_wdt.h"
+
+1725959716 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\driver\driver_wdt.h
+	"driver_com.h"
+
+1767407007 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func.c
+	"include.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\header\include.h
+	"global.h"
+	"xcfg.h"
+	"config.h"
+	"api.h"
+	"bsp.h"
+
+1767078719 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\xcfg.h
+
+1769564420 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config.h
+	"config_define.h"
+	"config_extra.h"
+
+1747795268 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config_define.h
+
+1767402104 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\config_extra.h
+
+1767403592 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp.h
+	"bsp_param.h"
+	"bsp_sys.h"
+	"ble_init.h"
+	"ble_client.h"
+	"ble_proc.h"
+	"bsp_uart_debug.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+	"bsp_saradc_tsen.h"
+	"bsp_key.h"
+	"bsp_huart_iodm.h"
+	"bsp_uart_transfer.h"
+	"func.h"
+	"msg.h"
+	"prod_test.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_param.h
+
+1726198118 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_sys.h
+
+1747795268 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_init.h
+	"ble_service.h"
+	"ble_alarm.h"
+	"ble_profile.h"
+	"ble_adv.h"
+
+1733542410 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_service.h
+
+1767074489 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_alarm.h
+
+1767075986 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_profile.h
+
+1733542410 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_adv.h
+
+1767407849 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_client.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_proc.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_debug.h
+
+1753104632 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc.h
+
+1753104632 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_vbat.h
+
+1729148088 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_tsen.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_key.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart_iodm.h
+
+1767407005 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_transfer.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func.h
+	"func_bt.h"
+	"func_le_fcc.h"
+	"func_le_bqb_rf.h"
+	"func_iodm.h"
+	"func_idle.h"
+	"func_lowpwr.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_bt.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_fcc.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_bqb_rf.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_iodm.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_idle.h
+
+1726198118 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_lowpwr.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\msg.h
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\prod_test.h
+	"prod_test_iodm.h"
+	"prod_test_tbox.h"
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\iodm\prod_test_iodm.h
+
+1728459396 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\prod_test_tbox.h
+	"include.h"
+	"tbox_key.h"
+
+1725498886 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_key.h
+	"include.h"
+
+1767075616 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_bt.c
+	"include.h"
+	"func.h"
+
+1723082996 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_idle.c
+	"include.h"
+	"func.h"
+	"func_idle.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_iodm.c
+	"include.h"
+	"func.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_bqb_rf.c
+	"include.h"
+	"func.h"
+
+1752652174 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_le_fcc.c
+	"include.h"
+	"func.h"
+
+1767401839 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_lowpwr.c
+	"include.h"
+	"driver_lowpwr.h"
+	"driver_gpio.h"
+	"ble_user_service.h"
+	"bsp_io_key.h"
+
+1767065417 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_user_service.h
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_io_key.h
+	"driver_gpio.h"
+
+1751025378 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_tbox.c
+	"include.h"
+	"func.h"
+	"func_tbox.h"
+	"prod_test_tbox.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\app\func_tbox.h
+
+1769511723 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_adv.c
+	"include.h"
+
+1733542410 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_alarm.c
+	"include.h"
+
+1767419946 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_client.c
+	"include.h"
+	"ble_client.h"
+
+1767401871 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_fota_service.c
+	"include.h"
+
+1767410762 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_init.c
+	"include.h"
+	"ble_client.h"
+	"ble_init.h"
+
+1767419776 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_proc.c
+	"include.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_fota_service.h
+
+1767084054 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_profile.c
+	"include.h"
+
+1733542410 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_service.c
+	"include.h"
+	"ble_service.h"
+	"ble_user_service.h"
+	"ble_fota_service.h"
+
+1767419661 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ble\ble_user_service.c
+	"include.h"
+
+1739435984 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart.c
+	"include.h"
+	"bsp_huart.h"
+	"api.h"
+	"driver_com.h"
+	"driver_hsuart.h"
+	"ble_init.h"
+	"driver_gpio.h"
+	"config.h"
+
+1722848330 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart.h
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_huart_iodm.c
+	"include.h"
+	"bsp_huart_iodm.h"
+	"driver_hsuart.h"
+	"prod_test_iodm.h"
+	"driver_gpio.h"
+
+1767402061 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_io_key.c
+	"include.h"
+	"bsp_io_key.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_key.c
+	"include.h"
+	"driver_com.h"
+	"bsp_saradc_key.h"
+	"bsp_io_key.h"
+
+1723810374 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_key.h
+
+1767402074 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_param.c
+	"include.h"
+
+1753104632 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1723810374 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_key.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_key.h"
+	"bsp_key.h"
+
+1729149200 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_tsen.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_tsen.h"
+
+1753104632 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_saradc_vbat.c
+	"include.h"
+	"driver_saradc.h"
+	"bsp_saradc_vbat.h"
+
+1769564607 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_sys.c
+	"include.h"
+	"driver_lowpwr.h"
+	"bsp_saradc_key.h"
+
+1767402086 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_debug.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_debug.h"
+
+1769564411 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\bsp\bsp_uart_transfer.c
+	"include.h"
+	"driver_gpio.h"
+	"driver_uart.h"
+	"bsp_uart_transfer.h"
+
+1730453290 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\main.c
+	"include.h"
+	"driver_lowpwr.h"
+
+1747795268 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\app.xm
+	"config.h"
+
+1722848330 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\download.xm
+
+1748520714 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\output\bin\xcfg.xm
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\iodm\prod_test_iodm.c
+	"include.h"
+	"prod_test_iodm.h"
+	"bsp_huart_iodm.h"
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\prod_test.c
+	"include.h"
+	"prod_test.h"
+
+1738834130 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\prod_test_tbox.c
+	"include.h"
+	"tbox_key.h"
+	"tbox_voice.h"
+	"prod_test_tbox.h"
+
+1728459396 d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_voice.h
+	"include.h"
+
+1725498886 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\prod_test\tbox\tbox_key.c
+	"include.h"
+	"tbox_key.h"
+	"prod_test_tbox.h"
+
+1752647068 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\ram.ld
+	"config.h"
+
+1748413738 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\strong_ble.c
+	"include.h"
+
+1753164888 source:d:\a_workst\aworkst\d--¶¦Èó\2026-01-24-¶¦Èó-ab2039p-sop8\code\´Ó»ú\project-2026-01-24-ab2039p-sop8\project\ble_peripheral\strong_symbol.c
+	"include.h"
+	"driver_uart.h"
+

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(make:*)",
+      "Bash(cat:*)",
+      "Bash(riscv32-elf-xmaker:*)",
+      "Bash(/c/PROGRA~2/RV32-T~1/RV32-V1/bin/riscv32-elf-gcc:*)"
+    ]
+  }
+}

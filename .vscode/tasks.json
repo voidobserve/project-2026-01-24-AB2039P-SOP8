@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Server",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make all",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "编译 ble_peripheral 项目"
+        },
+        {
+            "label": "Build Client",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make all CLIENT=1",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "编译 ble_peripheral 项目"
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make clean",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "清理编译产物"
+        },
+        {
+            "label": "Rebuild Server",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make rebuild",
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "清理后重新编译"
+        },
+        {
+            "label": "Rebuild Client",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make rebuild CLIENT=1",
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "清理后重新编译"
+        },
+        {
+            "label": "Build (Verbose)",
+            "type": "shell",
+            "command": "cd ./project/ble_peripheral; make all V=1",
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "详细输出编译过程"
+        }
+    ]
+}
