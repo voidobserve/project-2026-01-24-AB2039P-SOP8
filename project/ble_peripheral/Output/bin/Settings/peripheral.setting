@@ -4,7 +4,7 @@
         <add key="uosci_cap" value="40" />
         <add key="uosco_cap" value="40" />
         <add key="ft_osc_cap_en" value="True" />
-        <add key="le_name" value="LE-AB2020" />
+        <add key="le_name" value="DR-AB2030" />
         <add key="le_addr_mode" value="随机地址" />
         <add key="le_addr" value="41:42:00:00:00:01" />
         <add key="le_addr_start" value="41:42:00:00:00:00" />

@@ -2,7 +2,7 @@
     "configurations": [
         {
             "name": "client",
-            "includePath": [
+            "includePath": [ 
                 "${workspaceFolder}/header",
                 "${workspaceFolder}/libs",
                 "${workspaceFolder}/libs/ble",
@@ -24,18 +24,19 @@
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
-                ,"CLIENT"
+                "_UNICODE",
+                "CLIENT"
             ],
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64"
-        }
-        ,{
+        },
+        {
             "name": "server",
             "includePath": [
+                "${workspaceFolder}/**",
                 "${workspaceFolder}/header",
                 "${workspaceFolder}/libs",
                 "${workspaceFolder}/libs/ble",
@@ -51,7 +52,7 @@
                 "${workspaceFolder}/project/ble_peripheral/prod_test/iodm",
                 "${workspaceFolder}/project/ble_peripheral/prod_test/tbox",
                 "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include",
-                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include-fixed"
+                "C:/Program Files (x86)/RV32-Toolchain/RV32-V1/lib/gcc/riscv32-elf/6.1.0/include-fixed", 
             ],
             "defines": [
                 "_DEBUG",
