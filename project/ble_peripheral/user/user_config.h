@@ -3,7 +3,7 @@
 
 
 
-#define USER_DEBUG_ENABLE 1
+#define USER_DEBUG_ENABLE 0
 
 #endif
 

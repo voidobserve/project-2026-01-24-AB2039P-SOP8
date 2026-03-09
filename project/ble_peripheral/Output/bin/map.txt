@@ -2197,7 +2197,7 @@ LOAD Output\obj\project\ble_peripheral\strong_symbol.o
                 0x0000000000010e00                . = ALIGN (0x200)
  *fill*         0x0000000000010d88       0x78 
 
-.flash          0x0000000010001400    0x10600
+.flash          0x0000000010001400    0x10400
                 0x0000000010001400                __code_start_app_proc = .
  *(.text.app.proc.*)
  .text.app.proc.func
@@ -2423,1635 +2423,1628 @@ LOAD Output\obj\project\ble_peripheral\strong_symbol.o
                 0x000000001000296c                bsp_sys_init
  .text.ble_notify_buff_write_byte
                 0x00000000100029f2       0x22 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
- .text.user_uart_putchar
-                0x0000000010002a14       0x2e Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002a14                user_uart_putchar
  .text.uart_cmd_buff_write_byte
-                0x0000000010002a42       0x22 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002a42                uart_cmd_buff_write_byte
+                0x0000000010002a14       0x22 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002a14                uart_cmd_buff_write_byte
  .text.uart_cmd_buff_read_last_byte
-                0x0000000010002a64       0x1c Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002a64                uart_cmd_buff_read_last_byte
+                0x0000000010002a36       0x1c Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002a36                uart_cmd_buff_read_last_byte
  .text.uart_cmd_buff_error
-                0x0000000010002a80       0x34 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002a80                uart_cmd_buff_error
+                0x0000000010002a52       0x34 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002a52                uart_cmd_buff_error
  .text.uart_cmd_success_feedback
-                0x0000000010002ab4       0x4e Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002ab4                uart_cmd_success_feedback
+                0x0000000010002a86       0x4e Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002a86                uart_cmd_success_feedback
  .text.uart_transfer_init
-                0x0000000010002b02       0xda Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002b02                uart_transfer_init
+                0x0000000010002ad4       0xc2 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002ad4                uart_transfer_init
  .text.uart_transfer_rx_event
-                0x0000000010002bdc      0x170 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
-                0x0000000010002bdc                uart_transfer_rx_event
+                0x0000000010002b96      0x134 Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
+                0x0000000010002b96                uart_transfer_rx_event
  .text.startup.main
-                0x0000000010002d4c       0x32 Output\obj\project\ble_peripheral\main.o
-                0x0000000010002d4c                main
+                0x0000000010002cca       0x32 Output\obj\project\ble_peripheral\main.o
+                0x0000000010002cca                main
  .text.prod_test_init
-                0x0000000010002d7e        0x2 Output\obj\project\ble_peripheral\prod_test\prod_test.o
-                0x0000000010002d7e                prod_test_init
+                0x0000000010002cfc        0x2 Output\obj\project\ble_peripheral\prod_test\prod_test.o
+                0x0000000010002cfc                prod_test_init
  .text.hci_fcc_init
-                0x0000000010002d80        0x2 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d80                hci_fcc_init
+                0x0000000010002cfe        0x2 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002cfe                hci_fcc_init
  .text.bt_uart_isr
-                0x0000000010002d82        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d82                bt_uart_isr
+                0x0000000010002d00        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d00                bt_uart_isr
  .text.ble_sm_server_event_do
-                0x0000000010002d86        0x2 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d86                ble_sm_server_event_do
+                0x0000000010002d04        0x2 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d04                ble_sm_server_event_do
  .text.sm_send_security_request
-                0x0000000010002d88        0x2 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d88                sm_send_security_request
+                0x0000000010002d06        0x2 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d06                sm_send_security_request
  .text.sm_request_pairing
-                0x0000000010002d8a        0x2 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d8a                sm_request_pairing
+                0x0000000010002d08        0x2 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d08                sm_request_pairing
  .text.sm_passkey_input
-                0x0000000010002d8c        0x2 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d8c                sm_passkey_input
+                0x0000000010002d0a        0x2 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d0a                sm_passkey_input
  .text.sm_passkey_input_get
-                0x0000000010002d8e        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d8e                sm_passkey_input_get
+                0x0000000010002d0c        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d0c                sm_passkey_input_get
  .text.ble_get_local_bd_addr
-                0x0000000010002d92       0x14 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002d92                ble_get_local_bd_addr
+                0x0000000010002d10       0x14 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d10                ble_get_local_bd_addr
  .text.bt_rf_get_param
-                0x0000000010002da6       0x16 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002da6                bt_rf_get_param
+                0x0000000010002d24       0x16 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d24                bt_rf_get_param
  .text.ble_get_link_info
-                0x0000000010002dbc        0x6 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dbc                ble_get_link_info
+                0x0000000010002d3a        0x6 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d3a                ble_get_link_info
  .text.ble_put_link_info
-                0x0000000010002dc2       0x10 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dc2                ble_put_link_info
+                0x0000000010002d40       0x10 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d40                ble_put_link_info
  .text.ble_mtu_exchange_enabled
-                0x0000000010002dd2        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dd2                ble_mtu_exchange_enabled
+                0x0000000010002d50        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d50                ble_mtu_exchange_enabled
  .text.ble_disconnected_restart_adv
-                0x0000000010002dd6        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dd6                ble_disconnected_restart_adv
+                0x0000000010002d54        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d54                ble_disconnected_restart_adv
  .text.ble_rx_exit_sleep
-                0x0000000010002dda        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dda                ble_rx_exit_sleep
+                0x0000000010002d58        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d58                ble_rx_exit_sleep
  .text.ble_feature_exchange_enabled
-                0x0000000010002dde        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002dde                ble_feature_exchange_enabled
+                0x0000000010002d5c        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d5c                ble_feature_exchange_enabled
  .text.ble_length_request_enabled
-                0x0000000010002de2        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002de2                ble_length_request_enabled
+                0x0000000010002d60        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d60                ble_length_request_enabled
  .text.ble_phy_update_enable
-                0x0000000010002de6        0x4 Output\obj\project\ble_peripheral\strong_ble.o
-                0x0000000010002de6                ble_phy_update_enable
+                0x0000000010002d64        0x4 Output\obj\project\ble_peripheral\strong_ble.o
+                0x0000000010002d64                ble_phy_update_enable
  .text.mem_heap_size_get
-                0x0000000010002dea        0x8 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002dea                mem_heap_size_get
+                0x0000000010002d68        0x8 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002d68                mem_heap_size_get
  .text.thread_cfg_get
-                0x0000000010002df2        0xa Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002df2                thread_cfg_get
+                0x0000000010002d70        0xa Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002d70                thread_cfg_get
  .text.thread_create_callback
-                0x0000000010002dfc        0x4 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002dfc                thread_create_callback
+                0x0000000010002d7a        0x4 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002d7a                thread_create_callback
  .text.xosc_get_xcfg
-                0x0000000010002e00       0x20 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002e00                xosc_get_xcfg
+                0x0000000010002d7e       0x20 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002d7e                xosc_get_xcfg
  .text.param_xosc_read
-                0x0000000010002e20        0x8 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002e20                param_xosc_read
+                0x0000000010002d9e        0x8 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002d9e                param_xosc_read
  .text.param_xosc_write
-                0x0000000010002e28       0x14 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002e28                param_xosc_write
+                0x0000000010002da6       0x14 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002da6                param_xosc_write
  .text.sys_clk_change_callback
-                0x0000000010002e3c        0x2 Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002e3c                sys_clk_change_callback
+                0x0000000010002dba        0x2 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002dba                sys_clk_change_callback
  .text.uart_debug_init_callback
-                0x0000000010002e3e        0xc Output\obj\project\ble_peripheral\strong_symbol.o
-                0x0000000010002e3e                uart_debug_init_callback
+                0x0000000010002dbc        0xc Output\obj\project\ble_peripheral\strong_symbol.o
+                0x0000000010002dbc                uart_debug_init_callback
  .text.cm_loadpage
-                0x0000000010002e4a       0xb0 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002dc8       0xb0 ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_next_freepage
-                0x0000000010002efa       0x54 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002e78       0x54 ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_loadparam
-                0x0000000010002f4e        0x4 ..\..\libs\cpu\libplatform.a(cm.o)
-                0x0000000010002f4e                cm_loadparam
+                0x0000000010002ecc        0x4 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002ecc                cm_loadparam
  .text.cm_factory
-                0x0000000010002f52        0xa ..\..\libs\cpu\libplatform.a(cm.o)
-                0x0000000010002f52                cm_factory
+                0x0000000010002ed0        0xa ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002ed0                cm_factory
  .text.cm_addr_check
-                0x0000000010002f5c        0x4 ..\..\libs\cpu\libplatform.a(cm.o)
-                0x0000000010002f5c                cm_addr_check
+                0x0000000010002eda        0x4 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002eda                cm_addr_check
  .text.cm_writepage
-                0x0000000010002f60       0x28 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002ede       0x28 ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_movepage
-                0x0000000010002f88       0x50 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002f06       0x50 ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_erase
-                0x0000000010002fd8       0x1c ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002f56       0x1c ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_release
-                0x0000000010002ff4       0xfa ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010002f72       0xfa ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_savepage
-                0x00000000100030ee       0xd8 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x000000001000306c       0xd8 ..\..\libs\cpu\libplatform.a(cm.o)
  .text.cm_check_loadpage
-                0x00000000100031c6       0xae ..\..\libs\cpu\libplatform.a(cm.o)
- .text.cm_sync  0x0000000010003274       0x3e ..\..\libs\cpu\libplatform.a(cm.o)
-                0x0000000010003274                cm_sync
- .text.cm_read  0x00000000100032b2       0x42 ..\..\libs\cpu\libplatform.a(cm.o)
-                0x00000000100032b2                cm_read
+                0x0000000010003144       0xae ..\..\libs\cpu\libplatform.a(cm.o)
+ .text.cm_sync  0x00000000100031f2       0x3e ..\..\libs\cpu\libplatform.a(cm.o)
+                0x00000000100031f2                cm_sync
+ .text.cm_read  0x0000000010003230       0x42 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010003230                cm_read
  .text.cm_write
-                0x00000000100032f4       0x5e ..\..\libs\cpu\libplatform.a(cm.o)
-                0x00000000100032f4                cm_write
- .text.cm_init  0x0000000010003352      0x1e4 ..\..\libs\cpu\libplatform.a(cm.o)
-                0x0000000010003352                cm_init
+                0x0000000010003272       0x5e ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010003272                cm_write
+ .text.cm_init  0x00000000100032d0      0x1e4 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x00000000100032d0                cm_init
  .text.xcfg_init
-                0x0000000010003536       0x4c ..\..\libs\cpu\libplatform.a(xcfg.o)
-                0x0000000010003536                xcfg_init
+                0x00000000100034b4       0x4c ..\..\libs\cpu\libplatform.a(xcfg.o)
+                0x00000000100034b4                xcfg_init
  .text.platform_main
-                0x0000000010003582      0x154 ..\..\libs\cpu\libplatform.a(main.o)
-                0x0000000010003582                platform_main
+                0x0000000010003500      0x154 ..\..\libs\cpu\libplatform.a(main.o)
+                0x0000000010003500                platform_main
  .text.main_startup
-                0x00000000100036d6        0xe ..\..\libs\cpu\libplatform.a(main.o)
-                0x00000000100036d6                main_startup
+                0x0000000010003654        0xe ..\..\libs\cpu\libplatform.a(main.o)
+                0x0000000010003654                main_startup
  .text.register_isr
-                0x00000000100036e4       0x38 ..\..\libs\cpu\libplatform.a(interrupt.o)
-                0x00000000100036e4                register_isr
+                0x0000000010003662       0x38 ..\..\libs\cpu\libplatform.a(interrupt.o)
+                0x0000000010003662                register_isr
  .text.sys_irq_init
-                0x000000001000371c       0x88 ..\..\libs\cpu\libplatform.a(interrupt.o)
-                0x000000001000371c                sys_irq_init
+                0x000000001000369a       0x88 ..\..\libs\cpu\libplatform.a(interrupt.o)
+                0x000000001000369a                sys_irq_init
  .text.soft_irq_init
-                0x00000000100037a4       0x44 ..\..\libs\cpu\libplatform.a(interrupt.o)
-                0x00000000100037a4                soft_irq_init
+                0x0000000010003722       0x44 ..\..\libs\cpu\libplatform.a(interrupt.o)
+                0x0000000010003722                soft_irq_init
  .text.bthw_irq_init
-                0x00000000100037e8        0xe ..\..\libs\cpu\libplatform.a(interrupt.o)
-                0x00000000100037e8                bthw_irq_init
+                0x0000000010003766        0xe ..\..\libs\cpu\libplatform.a(interrupt.o)
+                0x0000000010003766                bthw_irq_init
  .text.sys_timer_init
-                0x00000000100037f6       0x5e ..\..\libs\cpu\libplatform.a(interrupt.o)
-                0x00000000100037f6                sys_timer_init
+                0x0000000010003774       0x5e ..\..\libs\cpu\libplatform.a(interrupt.o)
+                0x0000000010003774                sys_timer_init
  .text.thread_btstack_create
-                0x0000000010003854       0x82 ..\..\libs\cpu\libplatform.a(startup.o)
-                0x0000000010003854                thread_btstack_create
+                0x00000000100037d2       0x82 ..\..\libs\cpu\libplatform.a(startup.o)
+                0x00000000100037d2                thread_btstack_create
  .text.thread_main_entry
-                0x00000000100038d6       0x2e ..\..\libs\cpu\libplatform.a(startup.o)
+                0x0000000010003854       0x2e ..\..\libs\cpu\libplatform.a(startup.o)
  .text.startup.init
-                0x0000000010003904      0x100 ..\..\libs\cpu\libplatform.a(startup.o)
-                0x0000000010003904                platform_init
-                0x000000001000390c                sys_startup
+                0x0000000010003882      0x100 ..\..\libs\cpu\libplatform.a(startup.o)
+                0x0000000010003882                platform_init
+                0x000000001000388a                sys_startup
  .text.bt_set_timer_enable
-                0x0000000010003a04       0x18 ..\..\libs\cpu\libplatform.a(startup.o)
-                0x0000000010003a04                bt_set_timer_enable
+                0x0000000010003982       0x18 ..\..\libs\cpu\libplatform.a(startup.o)
+                0x0000000010003982                bt_set_timer_enable
  .text.sys_set_tmr_enable
-                0x0000000010003a1c       0x22 ..\..\libs\cpu\libplatform.a(startup.o)
-                0x0000000010003a1c                sys_set_tmr_enable
+                0x000000001000399a       0x22 ..\..\libs\cpu\libplatform.a(startup.o)
+                0x000000001000399a                sys_set_tmr_enable
  .text.sys_hook_init
-                0x0000000010003a3e        0x2 ..\..\libs\cpu\libplatform.a(sys_hook.o)
-                0x0000000010003a3e                sys_hook_init
+                0x00000000100039bc        0x2 ..\..\libs\cpu\libplatform.a(sys_hook.o)
+                0x00000000100039bc                sys_hook_init
  .text.pll0_vco_band_trimming
-                0x0000000010003a40      0x176 ..\..\libs\cpu\libplatform.a(pll.o)
-                0x0000000010003a40                pll0_vco_band_trimming
+                0x00000000100039be      0x176 ..\..\libs\cpu\libplatform.a(pll.o)
+                0x00000000100039be                pll0_vco_band_trimming
  .text.pll0_init
-                0x0000000010003bb6       0x62 ..\..\libs\cpu\libplatform.a(pll.o)
-                0x0000000010003bb6                pll0_init
+                0x0000000010003b34       0x62 ..\..\libs\cpu\libplatform.a(pll.o)
+                0x0000000010003b34                pll0_init
  .text.pll0_disable
-                0x0000000010003c18       0x16 ..\..\libs\cpu\libplatform.a(pll.o)
-                0x0000000010003c18                pll0_disable
+                0x0000000010003b96       0x16 ..\..\libs\cpu\libplatform.a(pll.o)
+                0x0000000010003b96                pll0_disable
  .text.pmu_set_buck_mode
-                0x0000000010003c2e       0x48 ..\..\libs\cpu\libplatform.a(pmu.o)
-                0x0000000010003c2e                pmu_set_buck_mode
+                0x0000000010003bac       0x48 ..\..\libs\cpu\libplatform.a(pmu.o)
+                0x0000000010003bac                pmu_set_buck_mode
  .text.pmu_voltage_configure
-                0x0000000010003c76       0x48 ..\..\libs\cpu\libplatform.a(pmu.o)
-                0x0000000010003c76                pmu_voltage_configure
+                0x0000000010003bf4       0x48 ..\..\libs\cpu\libplatform.a(pmu.o)
+                0x0000000010003bf4                pmu_voltage_configure
  .text.pmu_init
-                0x0000000010003cbe      0x2e4 ..\..\libs\cpu\libplatform.a(pmu.o)
-                0x0000000010003cbe                pmu_init
+                0x0000000010003c3c      0x2e4 ..\..\libs\cpu\libplatform.a(pmu.o)
+                0x0000000010003c3c                pmu_init
  .text.debug_set
-                0x0000000010003fa2       0x20 ..\..\libs\cpu\libplatform.a(debug.o)
-                0x0000000010003fa2                debug_set
+                0x0000000010003f20       0x20 ..\..\libs\cpu\libplatform.a(debug.o)
+                0x0000000010003f20                debug_set
  .text.ota_pack_is_update_success
-                0x0000000010003fc2       0x10 ..\..\libs\cpu\libplatform.a(fot_pack.o)
-                0x0000000010003fc2                ota_pack_is_update_success
+                0x0000000010003f40       0x10 ..\..\libs\cpu\libplatform.a(fot_pack.o)
+                0x0000000010003f40                ota_pack_is_update_success
  .text.lock_init
-                0x0000000010003fd2       0x10 ..\..\libs\cpu\libplatform.a(lock.o)
-                0x0000000010003fd2                lock_init
+                0x0000000010003f50       0x10 ..\..\libs\cpu\libplatform.a(lock.o)
+                0x0000000010003f50                lock_init
  .text.patch_init
-                0x0000000010003fe2       0x5a ..\..\libs\cpu\libplatform.a(patch.o)
-                0x0000000010003fe2                patch_init
+                0x0000000010003f60       0x5a ..\..\libs\cpu\libplatform.a(patch.o)
+                0x0000000010003f60                patch_init
  .text.udivmoddi4
-                0x000000001000403c       0x96 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010003fba       0x96 ..\..\libs\cpu\libplatform.a(sys.o)
  .text.sys_rst_init
-                0x00000000100040d2       0x94 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x00000000100040d2                sys_rst_init
+                0x0000000010004050       0x94 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010004050                sys_rst_init
  .text.sys_rst_dump
-                0x0000000010004166       0x74 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x0000000010004166                sys_rst_dump
+                0x00000000100040e4       0x74 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x00000000100040e4                sys_rst_dump
  .text.rc2m_clk_nhz_cal
-                0x00000000100041da       0xda ..\..\libs\cpu\libplatform.a(sys.o)
-                0x00000000100041da                rc2m_clk_nhz_cal
+                0x0000000010004158       0xda ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010004158                rc2m_clk_nhz_cal
  .text.sys_get_rand_key_init
-                0x00000000100042b4        0xa ..\..\libs\cpu\libplatform.a(sys.o)
-                0x00000000100042b4                sys_get_rand_key_init
+                0x0000000010004232        0xa ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010004232                sys_get_rand_key_init
  .text.xosc_init
-                0x00000000100042be       0x92 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x00000000100042be                xosc_init
+                0x000000001000423c       0x92 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x000000001000423c                xosc_init
  .text.bsp.param
-                0x0000000010004350       0x26 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x0000000010004350                bt_save_xosc_cap
+                0x00000000100042ce       0x26 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x00000000100042ce                bt_save_xosc_cap
  .text.bt_get_xosc_cap
-                0x0000000010004376        0xc ..\..\libs\cpu\libplatform.a(sys.o)
-                0x0000000010004376                bt_get_xosc_cap
+                0x00000000100042f4        0xc ..\..\libs\cpu\libplatform.a(sys.o)
+                0x00000000100042f4                bt_get_xosc_cap
  .text.bt_set_xosc_cap
-                0x0000000010004382       0x18 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x0000000010004382                bt_set_xosc_cap
+                0x0000000010004300       0x18 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010004300                bt_set_xosc_cap
  .text.bt_adj_xosc_cap
-                0x000000001000439a       0x72 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x000000001000439a                bt_adj_xosc_cap
+                0x0000000010004318       0x72 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x0000000010004318                bt_adj_xosc_cap
  .text.__udivdi3
-                0x000000001000440c        0x6 ..\..\libs\cpu\libplatform.a(sys.o)
-                0x000000001000440c                __udivdi3
+                0x000000001000438a        0x6 ..\..\libs\cpu\libplatform.a(sys.o)
+                0x000000001000438a                __udivdi3
  .text.sys_clk_cacl_curr
-                0x0000000010004412       0x18 ..\..\libs\cpu\libplatform.a(sys_clk.o)
- *fill*         0x000000001000442a      0x1d6 
+                0x0000000010004390       0x18 ..\..\libs\cpu\libplatform.a(sys_clk.o)
+ *fill*         0x00000000100043a8       0x58 
  .text.set_sys_clk_do
-                0x0000000010004600      0x1f2 ..\..\libs\cpu\libplatform.a(sys_clk.o)
-                0x0000000010004600                set_sys_clk_do
- .text.sys_clk  0x00000000100047f2      0x1ca ..\..\libs\cpu\libplatform.a(sys_clk.o)
-                0x00000000100047f2                sys_clk_get_cur
-                0x00000000100047fa                sys_clk_set_do
+                0x0000000010004400      0x1f2 ..\..\libs\cpu\libplatform.a(sys_clk.o)
+                0x0000000010004400                set_sys_clk_do
+ .text.sys_clk  0x00000000100045f2      0x1ca ..\..\libs\cpu\libplatform.a(sys_clk.o)
+                0x00000000100045f2                sys_clk_get_cur
+                0x00000000100045fa                sys_clk_set_do
  .text.sys_clk_set
-                0x00000000100049bc       0x60 ..\..\libs\cpu\libplatform.a(sys_clk.o)
-                0x00000000100049bc                sys_clk_set
- *fill*         0x0000000010004a1c        0x0 
+                0x00000000100047bc       0x60 ..\..\libs\cpu\libplatform.a(sys_clk.o)
+                0x00000000100047bc                sys_clk_set
+ *fill*         0x000000001000481c        0x0 
  .text.sys_clk.table
-                0x0000000010004a1c       0x16 ..\..\libs\cpu\libplatform.a(sys_clk.o)
-                0x0000000010004a1c                sysclk_info_tbl
+                0x000000001000481c       0x16 ..\..\libs\cpu\libplatform.a(sys_clk.o)
+                0x000000001000481c                sysclk_info_tbl
  .text.voltage.trim
-                0x0000000010004a32       0xaa ..\..\libs\cpu\libplatform.a(voltage_trim.o)
-                0x0000000010004a32                voltage_trim_value_init
+                0x0000000010004832       0xaa ..\..\libs\cpu\libplatform.a(voltage_trim.o)
+                0x0000000010004832                voltage_trim_value_init
  .text.xosc_24m_div_get
-                0x0000000010004adc        0x4 ..\..\libs\cpu\libplatform.a(weak_symbol.o)
-                0x0000000010004adc                xosc_24m_div_get
+                0x00000000100048dc        0x4 ..\..\libs\cpu\libplatform.a(weak_symbol.o)
+                0x00000000100048dc                xosc_24m_div_get
  .text.freq_det_init
-                0x0000000010004ae0       0x3a ..\..\libs\cpu\libplatform.a(freq_det.o)
-                0x0000000010004ae0                freq_det_init
- .text          0x0000000010004b1a       0x4e ..\..\libs\ble\libbtstack.a(txpkt.o)
-                0x0000000010004b1a                txpkt_list_is_empty
-                0x0000000010004b26                txpkt_init
-                0x0000000010004b56                txpkt_get_available_len
+                0x00000000100048e0       0x3a ..\..\libs\cpu\libplatform.a(freq_det.o)
+                0x00000000100048e0                freq_det_init
+ .text          0x000000001000491a       0x4e ..\..\libs\ble\libbtstack.a(txpkt.o)
+                0x000000001000491a                txpkt_list_is_empty
+                0x0000000010004926                txpkt_init
+                0x0000000010004956                txpkt_get_available_len
  .text.txpkt.flush
-                0x0000000010004b68       0x4a ..\..\libs\ble\libbtstack.a(txpkt.o)
-                0x0000000010004b68                txpkt_free_for_handle
- .text          0x0000000010004bb2      0x2b4 ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010004bb2                hci_get_state
-                0x0000000010004bba                hci_adv_param_get
-                0x0000000010004bc2                ble_get_scan_sta
-                0x0000000010004bc6                hci_shutdown_connection
-                0x0000000010004bec                gap_le_get_own_address
-                0x0000000010004c22                hci_le_set_own_address_type
-                0x0000000010004c56                hci_le_random_address_set
-                0x0000000010004c7a                gap_ctrl_connection_parameter_latency
-                0x0000000010004ca2                gap_set_connection_parameters
-                0x0000000010004cba                gap_get_connection_parameters
-                0x0000000010004ce2                gap_get_connection_parameters_for_handle
-                0x0000000010004d18                gap_update_connection_parameters_do
-                0x0000000010004d50                gap_update_connection_parameters
-                0x0000000010004d84                gap_advertisements_set_data
-                0x0000000010004d98                gap_scan_response_set_data
-                0x0000000010004dac                gap_advertisements_enable
-                0x0000000010004dcc                gap_ext_advertisements_set_data
-                0x0000000010004dce                gap_ext_scan_response_set_data
-                0x0000000010004dd0                gap_ext_advertisements_enable
-                0x0000000010004dd2                gap_ext_advertisements_set_params
-                0x0000000010004dd4                ble_per_advertisements_set_data
-                0x0000000010004dd6                ble_per_advertisements_enable
-                0x0000000010004dd8                ble_per_advertisements_add_device_list
-                0x0000000010004dda                ble_per_advertisements_creat_sync
-                0x0000000010004ddc                ble_per_advertisements_creat_sync_cancel
-                0x0000000010004dde                ble_per_advertisements_terminate_sync
-                0x0000000010004de0                ble_vs_tbox_prod_test_start
-                0x0000000010004df6                gap_disconnect
-                0x0000000010004e48                hci_rx_flush
-                0x0000000010004e4a                hci_packet_send_finish
+                0x0000000010004968       0x4a ..\..\libs\ble\libbtstack.a(txpkt.o)
+                0x0000000010004968                txpkt_free_for_handle
+ .text          0x00000000100049b2      0x2b4 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x00000000100049b2                hci_get_state
+                0x00000000100049ba                hci_adv_param_get
+                0x00000000100049c2                ble_get_scan_sta
+                0x00000000100049c6                hci_shutdown_connection
+                0x00000000100049ec                gap_le_get_own_address
+                0x0000000010004a22                hci_le_set_own_address_type
+                0x0000000010004a56                hci_le_random_address_set
+                0x0000000010004a7a                gap_ctrl_connection_parameter_latency
+                0x0000000010004aa2                gap_set_connection_parameters
+                0x0000000010004aba                gap_get_connection_parameters
+                0x0000000010004ae2                gap_get_connection_parameters_for_handle
+                0x0000000010004b18                gap_update_connection_parameters_do
+                0x0000000010004b50                gap_update_connection_parameters
+                0x0000000010004b84                gap_advertisements_set_data
+                0x0000000010004b98                gap_scan_response_set_data
+                0x0000000010004bac                gap_advertisements_enable
+                0x0000000010004bcc                gap_ext_advertisements_set_data
+                0x0000000010004bce                gap_ext_scan_response_set_data
+                0x0000000010004bd0                gap_ext_advertisements_enable
+                0x0000000010004bd2                gap_ext_advertisements_set_params
+                0x0000000010004bd4                ble_per_advertisements_set_data
+                0x0000000010004bd6                ble_per_advertisements_enable
+                0x0000000010004bd8                ble_per_advertisements_add_device_list
+                0x0000000010004bda                ble_per_advertisements_creat_sync
+                0x0000000010004bdc                ble_per_advertisements_creat_sync_cancel
+                0x0000000010004bde                ble_per_advertisements_terminate_sync
+                0x0000000010004be0                ble_vs_tbox_prod_test_start
+                0x0000000010004bf6                gap_disconnect
+                0x0000000010004c48                hci_rx_flush
+                0x0000000010004c4a                hci_packet_send_finish
  .text.stack.hci_init
-                0x0000000010004e66       0x88 ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010004e86                hci_power_control
+                0x0000000010004c66       0x88 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010004c86                hci_power_control
  .text.stack.handler.acl
-                0x0000000010004eee       0x14 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010004cee       0x14 ..\..\libs\ble\libbtstack.a(hci.o)
  .text.stack.setup
-                0x0000000010004f02       0xac ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010004f32                hci_add_event_handler
-                0x0000000010004f44                hci_register_acl_packet_handler
-                0x0000000010004f4c                hci_init
+                0x0000000010004d02       0xac ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010004d32                hci_add_event_handler
+                0x0000000010004d44                hci_register_acl_packet_handler
+                0x0000000010004d4c                hci_init
  .text.stack.hci
-                0x0000000010004fae      0x232 ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010004ffe                hci_number_free_acl_slots_for_handle
-                0x0000000010005016                hci_can_send_command_packet_now
-                0x0000000010005054                hci_can_send_acl_le_packet_now
-                0x0000000010005092                hci_can_send_prepared_acl_packet_now
-                0x00000000100050a0                hci_can_send_acl_packet_now
-                0x00000000100050ae                hci_is_packet_buffer_reserved
-                0x00000000100050b6                hci_reserve_packet_buffer
-                0x00000000100050ee                hci_release_packet_buffer
+                0x0000000010004dae      0x232 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010004dfe                hci_number_free_acl_slots_for_handle
+                0x0000000010004e16                hci_can_send_command_packet_now
+                0x0000000010004e54                hci_can_send_acl_le_packet_now
+                0x0000000010004e92                hci_can_send_prepared_acl_packet_now
+                0x0000000010004ea0                hci_can_send_acl_packet_now
+                0x0000000010004eae                hci_is_packet_buffer_reserved
+                0x0000000010004eb6                hci_reserve_packet_buffer
+                0x0000000010004eee                hci_release_packet_buffer
  .text.stack.hci.conn
-                0x00000000100051e0       0xcc ..\..\libs\ble\libbtstack.a(hci.o)
-                0x00000000100051e0                get_free_hci_connection
-                0x00000000100051fc                create_connection_for_bd_addr_and_type
-                0x0000000010005274                hci_connection_for_bd_addr_and_type
- .text.ble.hci  0x00000000100052ac      0x18c ..\..\libs\ble\libbtstack.a(hci.o)
-                0x00000000100052ac                ble_event_cmd_complete
-                0x0000000010005330                ble_event_meta
+                0x0000000010004fe0       0xcc ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010004fe0                get_free_hci_connection
+                0x0000000010004ffc                create_connection_for_bd_addr_and_type
+                0x0000000010005074                hci_connection_for_bd_addr_and_type
+ .text.ble.hci  0x00000000100050ac      0x18c ..\..\libs\ble\libbtstack.a(hci.o)
+                0x00000000100050ac                ble_event_cmd_complete
+                0x0000000010005130                ble_event_meta
  .text.stack.hci_send
-                0x0000000010005438       0x96 ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010005438                hci_send_cmd_packet
-                0x000000001000548c                hci_send_cmd
+                0x0000000010005238       0x96 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010005238                hci_send_cmd_packet
+                0x000000001000528c                hci_send_cmd
  .text.stack.hci.run
-                0x00000000100054ce      0x1b0 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x00000000100052ce      0x1b0 ..\..\libs\ble\libbtstack.a(hci.o)
  .text.stack.hci_rx
-                0x000000001000567e       0xdc ..\..\libs\ble\libbtstack.a(hci.o)
+                0x000000001000547e       0xdc ..\..\libs\ble\libbtstack.a(hci.o)
  .text.stack.hci_emit
-                0x000000001000575a       0x2c ..\..\libs\ble\libbtstack.a(hci.o)
-                0x000000001000575a                hci_emit_state
+                0x000000001000555a       0x2c ..\..\libs\ble\libbtstack.a(hci.o)
+                0x000000001000555a                hci_emit_state
  .text.stack.hci.le.adv
-                0x0000000010005786       0x46 ..\..\libs\ble\libbtstack.a(hci.o)
-                0x0000000010005786                hci_le_advertisements_set_params
- .text          0x00000000100057cc       0x42 ..\..\libs\ble\libbtstack.a(btstack_util.o)
-                0x00000000100057cc                log_info_hexdump
-                0x00000000100057ce                log_info_key
-                0x00000000100057d0                uuid_add_bluetooth_prefix
-                0x00000000100057f2                uuid_has_bluetooth_prefix
+                0x0000000010005586       0x46 ..\..\libs\ble\libbtstack.a(hci.o)
+                0x0000000010005586                hci_le_advertisements_set_params
+ .text          0x00000000100055cc       0x42 ..\..\libs\ble\libbtstack.a(btstack_util.o)
+                0x00000000100055cc                log_info_hexdump
+                0x00000000100055ce                log_info_key
+                0x00000000100055d0                uuid_add_bluetooth_prefix
+                0x00000000100055f2                uuid_has_bluetooth_prefix
  .text.stack.util
-                0x000000001000580e      0x126 ..\..\libs\ble\libbtstack.a(btstack_util.o)
-                0x000000001000580e                bd_addr_cmp
-                0x0000000010005814                bd_addr_copy
-                0x000000001000581a                big_endian_read_16
-                0x000000001000582a                big_endian_read_32
-                0x000000001000584a                big_endian_store_16
-                0x000000001000585e                big_endian_store_32
-                0x0000000010005892                reverse_bytes
-                0x00000000100058ae                reverse_24
-                0x00000000100058b2                reverse_48
-                0x00000000100058b6                reverse_56
-                0x00000000100058ba                reverse_64
-                0x00000000100058be                reverse_128
-                0x00000000100058c2                reverse_256
-                0x00000000100058c8                reverse_bd_addr
-                0x00000000100058ca                btstack_min
-                0x00000000100058d0                btstack_max
-                0x00000000100058d6                char_for_nibble
-                0x00000000100058fc                nibble_for_char
+                0x000000001000560e      0x126 ..\..\libs\ble\libbtstack.a(btstack_util.o)
+                0x000000001000560e                bd_addr_cmp
+                0x0000000010005614                bd_addr_copy
+                0x000000001000561a                big_endian_read_16
+                0x000000001000562a                big_endian_read_32
+                0x000000001000564a                big_endian_store_16
+                0x000000001000565e                big_endian_store_32
+                0x0000000010005692                reverse_bytes
+                0x00000000100056ae                reverse_24
+                0x00000000100056b2                reverse_48
+                0x00000000100056b6                reverse_56
+                0x00000000100056ba                reverse_64
+                0x00000000100056be                reverse_128
+                0x00000000100056c2                reverse_256
+                0x00000000100056c8                reverse_bd_addr
+                0x00000000100056ca                btstack_min
+                0x00000000100056d0                btstack_max
+                0x00000000100056d6                char_for_nibble
+                0x00000000100056fc                nibble_for_char
  .text.stack.hci_dump
-                0x0000000010005934       0x50 ..\..\libs\ble\libbtstack.a(btstack_util.o)
-                0x0000000010005934                bd_addr_to_str
- .text.sm.aes   0x0000000010005984       0x3a ..\..\libs\ble\libbtstack.a(sm.o)
+                0x0000000010005734       0x50 ..\..\libs\ble\libbtstack.a(btstack_util.o)
+                0x0000000010005734                bd_addr_to_str
+ .text.sm.aes   0x0000000010005784       0x3a ..\..\libs\ble\libbtstack.a(sm.o)
  .text.sm.get_handle
-                0x00000000100059be       0x16 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100057be       0x16 ..\..\libs\ble\libbtstack.a(sm.o)
  .text.sm.rau_run
-                0x00000000100059d4       0x90 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100057d4       0x90 ..\..\libs\ble\libbtstack.a(sm.o)
  .text.gap.rau.update
-                0x0000000010005a64       0x38 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x0000000010005864       0x38 ..\..\libs\ble\libbtstack.a(sm.o)
  .text.sm.is_null
-                0x0000000010005a9c       0x1c ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005a9c                sm_is_null
- .text.sm.hdl   0x0000000010005ab8       0x12 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005ab8                sm_add_event_handler
+                0x000000001000589c       0x1c ..\..\libs\ble\libbtstack.a(sm.o)
+                0x000000001000589c                sm_is_null
+ .text.sm.hdl   0x00000000100058b8       0x12 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100058b8                sm_add_event_handler
  .text.sm.deinit
-                0x0000000010005aca        0x8 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005aca                sm_deinit
+                0x00000000100058ca        0x8 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100058ca                sm_deinit
  .text.sm.auth.sta
-                0x0000000010005ad2       0x24 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005ad2                sm_authorization_state
+                0x00000000100058d2       0x24 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100058d2                sm_authorization_state
  .text.sm.index
-                0x0000000010005af6       0x14 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005af6                sm_le_device_index
+                0x00000000100058f6       0x14 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100058f6                sm_le_device_index
  .text.gap.rau.mode
-                0x0000000010005b0a       0x66 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005b0a                gap_random_address_set_mode
+                0x000000001000590a       0x66 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x000000001000590a                gap_random_address_set_mode
  .text.gap.rau_set
-                0x0000000010005b70       0x28 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005b70                gap_random_address_set
- .text.sm.addr  0x0000000010005b98        0xc ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005b98                gap_random_address_get
- .text.gap.adv  0x0000000010005ba4        0x4 ..\..\libs\ble\libbtstack.a(sm.o)
-                0x0000000010005ba4                gap_advertisements_set_params
- .text          0x0000000010005ba8       0x36 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005ba8                le_device_db_count
+                0x0000000010005970       0x28 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x0000000010005970                gap_random_address_set
+ .text.sm.addr  0x0000000010005998        0xc ..\..\libs\ble\libbtstack.a(sm.o)
+                0x0000000010005998                gap_random_address_get
+ .text.gap.adv  0x00000000100059a4        0x4 ..\..\libs\ble\libbtstack.a(sm.o)
+                0x00000000100059a4                gap_advertisements_set_params
+ .text          0x00000000100059a8       0x36 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x00000000100059a8                le_device_db_count
  .text.le.db.max
-                0x0000000010005bde        0x4 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005bde                ble_bonding_info_max_count
+                0x00000000100059de        0x4 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x00000000100059de                ble_bonding_info_max_count
  .text.le.db.set
-                0x0000000010005be2      0x114 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005be2                le_device_db_info_save_for_index
-                0x0000000010005c0a                le_device_db_info_set
+                0x00000000100059e2      0x114 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x00000000100059e2                le_device_db_info_save_for_index
+                0x0000000010005a0a                le_device_db_info_set
  .text.le.db.read
-                0x0000000010005cf6       0x2c ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005cf6                le_device_db_info_load_for_index
+                0x0000000010005af6       0x2c ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x0000000010005af6                le_device_db_info_load_for_index
  .text.le.db.init
-                0x0000000010005d22       0x52 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005d22                le_device_db_init
- .text.le.db    0x0000000010005d74      0x144 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
-                0x0000000010005d74                le_device_db_info
-                0x0000000010005dc4                le_device_db_encryption_set
-                0x0000000010005e2c                le_device_db_encryption_get
- .text          0x0000000010005eb8       0x24 ..\..\libs\ble\libbtstack.a(gatt_server.o)
-                0x0000000010005eb8                att_server_send_func_get
+                0x0000000010005b22       0x52 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x0000000010005b22                le_device_db_init
+ .text.le.db    0x0000000010005b74      0x144 ..\..\libs\ble\libbtstack.a(le_device_db_memory.o)
+                0x0000000010005b74                le_device_db_info
+                0x0000000010005bc4                le_device_db_encryption_set
+                0x0000000010005c2c                le_device_db_encryption_get
+ .text          0x0000000010005cb8       0x24 ..\..\libs\ble\libbtstack.a(gatt_server.o)
+                0x0000000010005cb8                att_server_send_func_get
  .text.ble.indicate
-                0x0000000010005edc       0x68 ..\..\libs\ble\libbtstack.a(gatt_server.o)
-                0x0000000010005edc                ble_send_indicate_packet
-                0x0000000010005eee                ble_indicate_for_handle
+                0x0000000010005cdc       0x68 ..\..\libs\ble\libbtstack.a(gatt_server.o)
+                0x0000000010005cdc                ble_send_indicate_packet
+                0x0000000010005cee                ble_indicate_for_handle
  .text.client.get_context
-                0x0000000010005f44       0x18 ..\..\libs\ble\libbtstack.a(gatt_client.o)
-                0x0000000010005f44                gatt_client_get_context_for_handle
+                0x0000000010005d44       0x18 ..\..\libs\ble\libbtstack.a(gatt_client.o)
+                0x0000000010005d44                gatt_client_get_context_for_handle
  .text.client.request_can_send
-                0x0000000010005f5c       0x28 ..\..\libs\ble\libbtstack.a(gatt_client.o)
-                0x0000000010005f5c                att_client_request_can_send_now_event
+                0x0000000010005d5c       0x28 ..\..\libs\ble\libbtstack.a(gatt_client.o)
+                0x0000000010005d5c                att_client_request_can_send_now_event
  .text.client.send_req
-                0x0000000010005f84       0x16 ..\..\libs\ble\libbtstack.a(gatt_client.o)
-                0x0000000010005f84                btstack_ble_client_send_req
- .text          0x0000000010005f9a      0x1b0 ..\..\libs\ble\libbtstack.a(att_server.o)
-                0x00000000100060b6                att_server_handler_list_init
-                0x00000000100060be                att_server_can_send_packet_now
+                0x0000000010005d84       0x16 ..\..\libs\ble\libbtstack.a(gatt_client.o)
+                0x0000000010005d84                btstack_ble_client_send_req
+ .text          0x0000000010005d9a      0x1b0 ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x0000000010005eb6                att_server_handler_list_init
+                0x0000000010005ebe                att_server_can_send_packet_now
  .text.server.register_service
-                0x000000001000614a       0x30 ..\..\libs\ble\libbtstack.a(att_server.o)
-                0x000000001000614a                att_server_register_service_handler
+                0x0000000010005f4a       0x30 ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x0000000010005f4a                att_server_register_service_handler
  .text.server.init
-                0x000000001000617a       0x5e ..\..\libs\ble\libbtstack.a(att_server.o)
-                0x000000001000617a                att_server_init
+                0x0000000010005f7a       0x5e ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x0000000010005f7a                att_server_init
  .text.server.packet_handler
-                0x00000000100061d8      0x18e ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x0000000010005fd8      0x18e ..\..\libs\ble\libbtstack.a(att_server.o)
  .text.att.event_handler
-                0x0000000010006366      0x160 ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x0000000010006166      0x160 ..\..\libs\ble\libbtstack.a(att_server.o)
  .text.server.indicate
-                0x00000000100064c6       0x98 ..\..\libs\ble\libbtstack.a(att_server.o)
-                0x00000000100064c6                att_server_indicate
+                0x00000000100062c6       0x98 ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x00000000100062c6                att_server_indicate
  .text.server.mtu_get
-                0x000000001000655e       0x24 ..\..\libs\ble\libbtstack.a(att_server.o)
-                0x000000001000655e                ble_att_get_mtu
- .text          0x0000000010006582      0x1da ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x0000000010006678                att_dispatch_connected_event
-                0x00000000100066ce                att_dispatch_disconnected_event
-                0x00000000100066f6                att_dispatch_connect_param_update_event
-                0x0000000010006724                att_dispatch_encryption_change_event
-                0x0000000010006754                att_dispatch_sm_event
+                0x000000001000635e       0x24 ..\..\libs\ble\libbtstack.a(att_server.o)
+                0x000000001000635e                ble_att_get_mtu
+ .text          0x0000000010006382      0x1da ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x0000000010006478                att_dispatch_connected_event
+                0x00000000100064ce                att_dispatch_disconnected_event
+                0x00000000100064f6                att_dispatch_connect_param_update_event
+                0x0000000010006524                att_dispatch_encryption_change_event
+                0x0000000010006554                att_dispatch_sm_event
  .text.att.is_register_client
-                0x000000001000675c        0xc ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x000000001000675c                att_dispatch_client_is_register
+                0x000000001000655c        0xc ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x000000001000655c                att_dispatch_client_is_register
  .text.att.register_server
-                0x0000000010006768       0x14 ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x0000000010006768                att_dispatch_register_server
+                0x0000000010006568       0x14 ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x0000000010006568                att_dispatch_register_server
  .text.att.dispatch_server
-                0x000000001000677c        0x6 ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x000000001000677c                att_dispatch_can_send_now
+                0x000000001000657c        0x6 ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x000000001000657c                att_dispatch_can_send_now
  .text.att.dispatch_client
-                0x0000000010006782        0xe ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x0000000010006782                att_dispatch_client_request_can_send_now_event
+                0x0000000010006582        0xe ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x0000000010006582                att_dispatch_client_request_can_send_now_event
  .text.att.server_mtu
-                0x0000000010006790        0xe ..\..\libs\ble\libbtstack.a(att_dispatch.o)
-                0x0000000010006790                att_dispatch_server_mtu_exchanged
- *fill*         0x000000001000679e        0x2 
- .text          0x00000000100067a0      0xddc ..\..\libs\ble\libbtstack.a(att_db.o)
-                0x000000001000699a                att_uuid_for_handle
-                0x00000000100069c4                att_set_db
-                0x00000000100069cc                att_set_read_callback
-                0x00000000100069d4                att_set_write_callback
-                0x00000000100069dc                handle_exchange_mtu_request
-                0x0000000010006a04                att_clear_transaction_queue
-                0x0000000010006a20                att_prepare_handle_value_indication
-                0x0000000010006a5e                att_handle_request
-                0x0000000010007428                gatt_server_get_get_handle_range_for_service_with_uuid16
-                0x00000000100074ae                gatt_server_get_value_handle_for_characteristic_with_uuid16
-                0x00000000100074f0                gatt_server_get_client_configuration_handle_for_characteristic_with_uuid16
+                0x0000000010006590        0xe ..\..\libs\ble\libbtstack.a(att_dispatch.o)
+                0x0000000010006590                att_dispatch_server_mtu_exchanged
+ *fill*         0x000000001000659e        0x2 
+ .text          0x00000000100065a0      0xddc ..\..\libs\ble\libbtstack.a(att_db.o)
+                0x000000001000679a                att_uuid_for_handle
+                0x00000000100067c4                att_set_db
+                0x00000000100067cc                att_set_read_callback
+                0x00000000100067d4                att_set_write_callback
+                0x00000000100067dc                handle_exchange_mtu_request
+                0x0000000010006804                att_clear_transaction_queue
+                0x0000000010006820                att_prepare_handle_value_indication
+                0x000000001000685e                att_handle_request
+                0x0000000010007228                gatt_server_get_get_handle_range_for_service_with_uuid16
+                0x00000000100072ae                gatt_server_get_value_handle_for_characteristic_with_uuid16
+                0x00000000100072f0                gatt_server_get_client_configuration_handle_for_characteristic_with_uuid16
  .text.att.mtu_request
-                0x000000001000757c       0x3a ..\..\libs\ble\libbtstack.a(att_db.o)
-                0x000000001000757c                att_exchange_mtu_request
+                0x000000001000737c       0x3a ..\..\libs\ble\libbtstack.a(att_db.o)
+                0x000000001000737c                att_exchange_mtu_request
  .text.att_server.mtu_rsp
-                0x00000000100075b6       0x2a ..\..\libs\ble\libbtstack.a(att_db.o)
-                0x00000000100075b6                handle_exchange_mtu_response
- .text          0x00000000100075e0        0x2 ..\..\libs\ble\libbtstack.a(hci_transport_h3_controller.o)
-                0x00000000100075e0                hci_init_var
- .text          0x00000000100075e2       0x12 ..\..\libs\ble\libbtstack.a(hci_transport_dummy.o)
-                0x00000000100075e2                hci_iodm_init
-                0x00000000100075e4                hci_transport_setup
- .text          0x00000000100075f4       0x18 ..\..\libs\ble\libbtstack.a(btstack_hal.o)
-                0x00000000100075f4                hal_tick_init
-                0x00000000100075fa                hal_tick_set_handler
- .text          0x000000001000760c      0x114 ..\..\libs\ble\libbtstack.a(btstack_api.o)
-                0x000000001000760c                btstack_ble_enable_scan
-                0x000000001000765e                btstack_ble_enable_adv
-                0x0000000010007664                btstack_ble_disable_adv
-                0x000000001000766a                btstack_ble_set_adv_param
-                0x00000000100076ac                btstack_ble_sm_passkey_input
-                0x00000000100076c2                btstack_ble_sm_send_security_request
-                0x00000000100076c6                btstack_ble_ctrl_connection_latency
-                0x00000000100076d2                btstack_ble_single_tone_mode_enter
-                0x00000000100076ee                btstack_ble_set_random_static_addr
-                0x00000000100076fe                btstack_ble_add_dev_to_white_list
-                0x0000000010007700                btstack_ble_rmv_dev_from_white_list
-                0x0000000010007702                btstack_ble_set_ext_adv_param
-                0x0000000010007704                btstack_ble_disable_scan
-                0x0000000010007706                btstack_ble_set_scan_param
-                0x0000000010007708                btstack_ble_conn_by_addr
-                0x000000001000770a                btstack_ble_rslv_enable
-                0x000000001000770c                btstack_ble_rslv_renew_to_set
-                0x000000001000770e                btstack_ble_add_dev_to_ral_list
-                0x0000000010007710                btstack_ble_rmv_dev_from_ral_list
-                0x0000000010007712                btstack_var_init
-                0x000000001000771c                btstack_ble_get_conn_rssi
+                0x00000000100073b6       0x2a ..\..\libs\ble\libbtstack.a(att_db.o)
+                0x00000000100073b6                handle_exchange_mtu_response
+ .text          0x00000000100073e0        0x2 ..\..\libs\ble\libbtstack.a(hci_transport_h3_controller.o)
+                0x00000000100073e0                hci_init_var
+ .text          0x00000000100073e2       0x12 ..\..\libs\ble\libbtstack.a(hci_transport_dummy.o)
+                0x00000000100073e2                hci_iodm_init
+                0x00000000100073e4                hci_transport_setup
+ .text          0x00000000100073f4       0x18 ..\..\libs\ble\libbtstack.a(btstack_hal.o)
+                0x00000000100073f4                hal_tick_init
+                0x00000000100073fa                hal_tick_set_handler
+ .text          0x000000001000740c      0x114 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x000000001000740c                btstack_ble_enable_scan
+                0x000000001000745e                btstack_ble_enable_adv
+                0x0000000010007464                btstack_ble_disable_adv
+                0x000000001000746a                btstack_ble_set_adv_param
+                0x00000000100074ac                btstack_ble_sm_passkey_input
+                0x00000000100074c2                btstack_ble_sm_send_security_request
+                0x00000000100074c6                btstack_ble_ctrl_connection_latency
+                0x00000000100074d2                btstack_ble_single_tone_mode_enter
+                0x00000000100074ee                btstack_ble_set_random_static_addr
+                0x00000000100074fe                btstack_ble_add_dev_to_white_list
+                0x0000000010007500                btstack_ble_rmv_dev_from_white_list
+                0x0000000010007502                btstack_ble_set_ext_adv_param
+                0x0000000010007504                btstack_ble_disable_scan
+                0x0000000010007506                btstack_ble_set_scan_param
+                0x0000000010007508                btstack_ble_conn_by_addr
+                0x000000001000750a                btstack_ble_rslv_enable
+                0x000000001000750c                btstack_ble_rslv_renew_to_set
+                0x000000001000750e                btstack_ble_add_dev_to_ral_list
+                0x0000000010007510                btstack_ble_rmv_dev_from_ral_list
+                0x0000000010007512                btstack_var_init
+                0x000000001000751c                btstack_ble_get_conn_rssi
  .text.stack.sleep
-                0x0000000010007720       0x24 ..\..\libs\ble\libbtstack.a(btstack_api.o)
-                0x0000000010007720                btstack_exit_sleep
-                0x000000001000772c                btstack_enter_sleep
- .text.ble.hci  0x0000000010007744      0x100 ..\..\libs\ble\libbtstack.a(btstack_api.o)
-                0x0000000010007744                btstack_ble_set_adv_data
-                0x0000000010007754                btstack_ble_set_scan_rsp_data
-                0x0000000010007764                btstack_ble_disconnect
-                0x000000001000777e                btstack_ble_set_adv_interval
-                0x00000000100077b0                btstack_ble_ll_update_conn_param
+                0x0000000010007520       0x24 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x0000000010007520                btstack_exit_sleep
+                0x000000001000752c                btstack_enter_sleep
+ .text.ble.hci  0x0000000010007544      0x100 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x0000000010007544                btstack_ble_set_adv_data
+                0x0000000010007554                btstack_ble_set_scan_rsp_data
+                0x0000000010007564                btstack_ble_disconnect
+                0x000000001000757e                btstack_ble_set_adv_interval
+                0x00000000100075b0                btstack_ble_ll_update_conn_param
  .text.stack.setup
-                0x0000000010007844       0x4c ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x0000000010007644       0x4c ..\..\libs\ble\libbtstack.a(btstack_api.o)
  .text.stack.api
-                0x0000000010007890       0x34 ..\..\libs\ble\libbtstack.a(btstack_api.o)
-                0x00000000100078b0                btstack_init
- .text          0x00000000100078c4       0x40 ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x00000000100078f0                ble_msg_free_prepare
+                0x0000000010007690       0x34 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x00000000100076b0                btstack_init
+ .text          0x00000000100076c4       0x40 ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x00000000100076f0                ble_msg_free_prepare
  .text.stack.api
-                0x0000000010007904       0x56 ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x0000000010007904                btstack_deinit
-                0x000000001000792c                ble_setup
+                0x0000000010007704       0x56 ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x0000000010007704                btstack_deinit
+                0x000000001000772c                ble_setup
  .text.ble.api.adv_dis
-                0x000000001000795a        0xc ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x000000001000795a                ble_adv_dis
+                0x000000001000775a        0xc ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x000000001000775a                ble_adv_dis
  .text.ble.api.adv_en
-                0x0000000010007966        0xc ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x0000000010007966                ble_adv_en
+                0x0000000010007766        0xc ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x0000000010007766                ble_adv_en
  .text.ble.api.discon
-                0x0000000010007972        0xe ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x0000000010007972                ble_disconnect
+                0x0000000010007772        0xe ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x0000000010007772                ble_disconnect
  .text.ble.api.adv_param.set
-                0x0000000010007980       0xf8 ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x0000000010007980                ble_set_adv_param
+                0x0000000010007780       0xf8 ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x0000000010007780                ble_set_adv_param
  .text.ble.api.regist
-                0x0000000010007a78        0x8 ..\..\libs\ble\libbtstack.a(ble_api.o)
-                0x0000000010007a78                ble_init_callback_register
-                0x0000000010007a7c                ble_vs_tbox_init_callback_register
- .text          0x0000000010007a80       0x44 ..\..\libs\ble\libbtstack.a(txpkt.o)
-                0x0000000010007a80                txpkt_mem_init
-                0x0000000010007a9a                txpkt_malloc
-                0x0000000010007aa6                txpkt_free
-                0x0000000010007ab0                txpkt_list_pop_front
-                0x0000000010007aba                txpkt_list_extract
- .text          0x0000000010007ac4       0x8e ..\..\libs\ble\libbtstack.a(rf.o)
-                0x0000000010007ac4                rf_off
-                0x0000000010007af0                rf_reset
-                0x0000000010007af2                rf_init
+                0x0000000010007878        0x8 ..\..\libs\ble\libbtstack.a(ble_api.o)
+                0x0000000010007878                ble_init_callback_register
+                0x000000001000787c                ble_vs_tbox_init_callback_register
+ .text          0x0000000010007880       0x44 ..\..\libs\ble\libbtstack.a(txpkt.o)
+                0x0000000010007880                txpkt_mem_init
+                0x000000001000789a                txpkt_malloc
+                0x00000000100078a6                txpkt_free
+                0x00000000100078b0                txpkt_list_pop_front
+                0x00000000100078ba                txpkt_list_extract
+ .text          0x00000000100078c4       0x8e ..\..\libs\ble\libbtstack.a(rf.o)
+                0x00000000100078c4                rf_off
+                0x00000000100078f0                rf_reset
+                0x00000000100078f2                rf_init
  .text.rf.tx_tone
-                0x0000000010007b52       0x54 ..\..\libs\ble\libbtstack.a(rf.o)
-                0x0000000010007b52                rf_single_tone_enter
- .text          0x0000000010007ba6      0x402 ..\..\libs\ble\libbtstack.a(hct_proc.o)
-                0x0000000010007f08                hct_register_handler_evt
-                0x0000000010007f10                hct_register_handler_acl
-                0x0000000010007f18                hct_acl_block_request
-                0x0000000010007f68                hct_init_do
- *fill*         0x0000000010007fa8       0x58 
- .text          0x0000000010008000      0x2dc ..\..\libs\ble\libbtstack.a(hct.o)
-                0x0000000010008000                hct_init
-                0x0000000010008010                hci_send_2_host
-                0x0000000010008044                hci_cmd_send_2_controller
-                0x00000000100080f4                hci_acl_send_2_controller
-                0x0000000010008200                hci_malloc_for_cmd_tmpl
-                0x0000000010008252                hci_malloc_for_acl_tx
-                0x0000000010008270                hci_ble_conhdl_register
-                0x000000001000827e                hci_ble_conhdl_unregister
- .text          0x00000000100082dc      0x17a ..\..\libs\ble\libbtstack.a(mgr_hci.o)
-                0x0000000010008442                hci_le_rd_buff_size
- .text.le.mgr   0x0000000010008456       0x38 ..\..\libs\ble\libbtstack.a(mgr_hci.o)
-                0x0000000010008456                hci_command_mgr_func
- .text          0x000000001000848e      0x440 ..\..\libs\ble\libbtstack.a(mgr.o)
-                0x000000001000848e                mgr_cmd_cmp_send
-                0x00000000100084b6                mgr_cmd_stat_send
-                0x00000000100084de                mgr_is_dev_connected
-                0x0000000010008548                mgr_ral_is_empty
-                0x000000001000854c                mgr_ch_map_update
-                0x0000000010008658                mgr_init
-                0x0000000010008758                mgr_clk_acc_set
-                0x0000000010008796                mgr_link_disc
-                0x00000000100087ca                mgr_le_evt_mask_check
-                0x00000000100087e4                mgr_le_get_features
-                0x0000000010008840                mgr_le_get_tbox_feat
-                0x000000001000884e                mgr_plan_elt_get
-                0x000000001000885c                mgr_act_get_free
-                0x00000000100088ac                mgr_act_set_free
- .text          0x00000000100088ce      0x686 ..\..\libs\ble\libbtstack.a(ll_adv.o)
-                0x000000001000896e                ll_adv_hdl_to_idx
-                0x00000000100089be                hci_le_set_adv_param_cmd_func
-                0x0000000010008b82                hci_le_set_adv_data_cmd_func
-                0x0000000010008c4e                hci_le_set_scan_rsp_data_cmd_func
-                0x0000000010008d1a                hci_le_set_adv_en_cmd_func
+                0x0000000010007952       0x54 ..\..\libs\ble\libbtstack.a(rf.o)
+                0x0000000010007952                rf_single_tone_enter
+ .text          0x00000000100079a6      0x402 ..\..\libs\ble\libbtstack.a(hct_proc.o)
+                0x0000000010007d08                hct_register_handler_evt
+                0x0000000010007d10                hct_register_handler_acl
+                0x0000000010007d18                hct_acl_block_request
+                0x0000000010007d68                hct_init_do
+ *fill*         0x0000000010007da8       0x58 
+ .text          0x0000000010007e00      0x2dc ..\..\libs\ble\libbtstack.a(hct.o)
+                0x0000000010007e00                hct_init
+                0x0000000010007e10                hci_send_2_host
+                0x0000000010007e44                hci_cmd_send_2_controller
+                0x0000000010007ef4                hci_acl_send_2_controller
+                0x0000000010008000                hci_malloc_for_cmd_tmpl
+                0x0000000010008052                hci_malloc_for_acl_tx
+                0x0000000010008070                hci_ble_conhdl_register
+                0x000000001000807e                hci_ble_conhdl_unregister
+ .text          0x00000000100080dc      0x17a ..\..\libs\ble\libbtstack.a(mgr_hci.o)
+                0x0000000010008242                hci_le_rd_buff_size
+ .text.le.mgr   0x0000000010008256       0x38 ..\..\libs\ble\libbtstack.a(mgr_hci.o)
+                0x0000000010008256                hci_command_mgr_func
+ .text          0x000000001000828e      0x440 ..\..\libs\ble\libbtstack.a(mgr.o)
+                0x000000001000828e                mgr_cmd_cmp_send
+                0x00000000100082b6                mgr_cmd_stat_send
+                0x00000000100082de                mgr_is_dev_connected
+                0x0000000010008348                mgr_ral_is_empty
+                0x000000001000834c                mgr_ch_map_update
+                0x0000000010008458                mgr_init
+                0x0000000010008558                mgr_clk_acc_set
+                0x0000000010008596                mgr_link_disc
+                0x00000000100085ca                mgr_le_evt_mask_check
+                0x00000000100085e4                mgr_le_get_features
+                0x0000000010008640                mgr_le_get_tbox_feat
+                0x000000001000864e                mgr_plan_elt_get
+                0x000000001000865c                mgr_act_get_free
+                0x00000000100086ac                mgr_act_set_free
+ .text          0x00000000100086ce      0x686 ..\..\libs\ble\libbtstack.a(ll_adv.o)
+                0x000000001000876e                ll_adv_hdl_to_idx
+                0x00000000100087be                hci_le_set_adv_param_cmd_func
+                0x0000000010008982                hci_le_set_adv_data_cmd_func
+                0x0000000010008a4e                hci_le_set_scan_rsp_data_cmd_func
+                0x0000000010008b1a                hci_le_set_adv_en_cmd_func
  .text.le.ll_adv.con
-                0x0000000010008f54      0x27c ..\..\libs\ble\libbtstack.a(ll_adv.o)
-                0x0000000010008f54                ble_adv_end_con_ind
+                0x0000000010008d54      0x27c ..\..\libs\ble\libbtstack.a(ll_adv.o)
+                0x0000000010008d54                ble_adv_end_con_ind
  .text.le.ll_adv
-                0x00000000100091d0      0x2ea ..\..\libs\ble\libbtstack.a(ll_adv.o)
-                0x00000000100091d0                ble_adv_end_ind_func
- *fill*         0x00000000100094ba        0x2 
- .text          0x00000000100094bc      0xd3e ..\..\libs\ble\libbtstack.a(ll_con_upd.o)
-                0x0000000010009e08                hci_le_con_upd_cmd_func
-                0x0000000010009f92                ll_op_con_upd_ind_func
-                0x000000001000a034                ble_con_param_upd_cfm_func
-                0x000000001000a0ac                ble_con_offset_upd_ind_func
-                0x000000001000a0fe                ll_con_move_cb
+                0x0000000010008fd0      0x2ea ..\..\libs\ble\libbtstack.a(ll_adv.o)
+                0x0000000010008fd0                ble_adv_end_ind_func
+ *fill*         0x00000000100092ba        0x2 
+ .text          0x00000000100092bc      0xd3e ..\..\libs\ble\libbtstack.a(ll_con_upd.o)
+                0x0000000010009c08                hci_le_con_upd_cmd_func
+                0x0000000010009d92                ll_op_con_upd_ind_func
+                0x0000000010009e34                ble_con_param_upd_cfm_func
+                0x0000000010009eac                ble_con_offset_upd_ind_func
+                0x0000000010009efe                ll_con_move_cb
  .text.le.ll_cntl.pdu
-                0x000000001000a1fa      0x332 ..\..\libs\ble\libbtstack.a(ll_con_upd.o)
-                0x000000001000a1fa                ll_con_update_ind_func
-                0x000000001000a36a                ll_con_param_req_func
-                0x000000001000a48e                ll_con_param_rsp_func
- .text          0x000000001000a52c      0x198 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
-                0x000000001000a52c                ble_cntl_rx_ind_func
+                0x0000000010009ffa      0x332 ..\..\libs\ble\libbtstack.a(ll_con_upd.o)
+                0x0000000010009ffa                ll_con_update_ind_func
+                0x000000001000a16a                ll_con_param_req_func
+                0x000000001000a28e                ll_con_param_rsp_func
+ .text          0x000000001000a32c      0x198 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
+                0x000000001000a32c                ble_cntl_rx_ind_func
  .text.le.ll_cntl.pdu
-                0x000000001000a6c4       0x1a ..\..\libs\ble\libbtstack.a(ll_cntl.o)
+                0x000000001000a4c4       0x1a ..\..\libs\ble\libbtstack.a(ll_cntl.o)
  .text.le.ll_cntl.send
-                0x000000001000a6de       0xa2 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
-                0x000000001000a6de                ll_cntl_send
+                0x000000001000a4de       0xa2 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
+                0x000000001000a4de                ll_cntl_send
  .text.le.ll_cntl.pdu
-                0x000000001000a780      0x112 ..\..\libs\ble\libbtstack.a(ll_clk_acc.o)
-                0x000000001000a780                ll_clk_acc_req_func
-                0x000000001000a7da                ll_clk_acc_rsp_func
- .text          0x000000001000a892      0x1b8 ..\..\libs\ble\libbtstack.a(ll_chmap_upd.o)
-                0x000000001000a9ba                ll_op_ch_map_upd_ind_func
-                0x000000001000aa22                ble_ch_map_upd_cfm_func
+                0x000000001000a580      0x112 ..\..\libs\ble\libbtstack.a(ll_clk_acc.o)
+                0x000000001000a580                ll_clk_acc_req_func
+                0x000000001000a5da                ll_clk_acc_rsp_func
+ .text          0x000000001000a692      0x1b8 ..\..\libs\ble\libbtstack.a(ll_chmap_upd.o)
+                0x000000001000a7ba                ll_op_ch_map_upd_ind_func
+                0x000000001000a822                ble_ch_map_upd_cfm_func
  .text.le.ll_cntl.pdu
-                0x000000001000aa4a      0x1da ..\..\libs\ble\libbtstack.a(ll_chmap_upd.o)
-                0x000000001000aa4a                ll_channel_map_ind_func
-                0x000000001000ab7a                ll_min_used_channels_ind_func
+                0x000000001000a84a      0x1da ..\..\libs\ble\libbtstack.a(ll_chmap_upd.o)
+                0x000000001000a84a                ll_channel_map_ind_func
+                0x000000001000a97a                ll_min_used_channels_ind_func
  .text.le.ll_cntl
-                0x000000001000ac24       0x68 ..\..\libs\ble\libbtstack.a(ll.o)
-                0x000000001000ac24                ll_init
+                0x000000001000aa24       0x68 ..\..\libs\ble\libbtstack.a(ll.o)
+                0x000000001000aa24                ll_init
  .text.le.ll_cntl.start
-                0x000000001000ac8c      0x236 ..\..\libs\ble\libbtstack.a(ll.o)
-                0x000000001000ac8c                ll_start
- .text          0x000000001000aec2      0x1d0 ..\..\libs\ble\libbtstack.a(ble_hal.o)
-                0x000000001000aec2                ble_get_rslv_var
-                0x000000001000aec6                ble_hal_init
-                0x000000001000b08a                ble_ch_assess_data_get
- *fill*         0x000000001000b092       0x6e 
- .text          0x000000001000b100      0x52a ..\..\libs\ble\libbtstack.a(ble_con.o)
-                0x000000001000b100                ble_con_start_do
-                0x000000001000b128                ble_con_start
-                0x000000001000b500                ble_con_stop
-                0x000000001000b580                ble_con_offset_get
-                0x000000001000b5c0                ble_con_pref_slave_latency_set
-                0x000000001000b5fc                ble_con_peer_sca_set
- .text.le.con   0x000000001000b62a       0x84 ..\..\libs\ble\libbtstack.a(ble_con.o)
-                0x000000001000b62a                ble_get_con_var
-                0x000000001000b632                ble_get_con_rssi
-                0x000000001000b648                ble_con_init
- .text          0x000000001000b6ae       0x62 ..\..\libs\ble\libbtstack.a(ble_adv.o)
-                0x000000001000b6ae                ble_get_adv_var
-                0x000000001000b6b6                ble_adv_init
- .text          0x000000001000b710      0x13e ..\..\libs\ble\libbtstack.a(ble_buf.o)
-                0x000000001000b710                ble_buf_init_do
-                0x000000001000b806                ble_buf_init
- *fill*         0x000000001000b84e       0x32 
- .text.bb.buf   0x000000001000b880       0x98 ..\..\libs\ble\libbtstack.a(ble_buf.o)
-                0x000000001000b880                ble_buf_acl_tx_elt_get
-                0x000000001000b8c0                ble_buf_acl_tx_elt_set
+                0x000000001000aa8c      0x236 ..\..\libs\ble\libbtstack.a(ll.o)
+                0x000000001000aa8c                ll_start
+ .text          0x000000001000acc2      0x1d0 ..\..\libs\ble\libbtstack.a(ble_hal.o)
+                0x000000001000acc2                ble_get_rslv_var
+                0x000000001000acc6                ble_hal_init
+                0x000000001000ae8a                ble_ch_assess_data_get
+ *fill*         0x000000001000ae92       0x6e 
+ .text          0x000000001000af00      0x52a ..\..\libs\ble\libbtstack.a(ble_con.o)
+                0x000000001000af00                ble_con_start_do
+                0x000000001000af28                ble_con_start
+                0x000000001000b300                ble_con_stop
+                0x000000001000b380                ble_con_offset_get
+                0x000000001000b3c0                ble_con_pref_slave_latency_set
+                0x000000001000b3fc                ble_con_peer_sca_set
+ .text.le.con   0x000000001000b42a       0x84 ..\..\libs\ble\libbtstack.a(ble_con.o)
+                0x000000001000b42a                ble_get_con_var
+                0x000000001000b432                ble_get_con_rssi
+                0x000000001000b448                ble_con_init
+ .text          0x000000001000b4ae       0x62 ..\..\libs\ble\libbtstack.a(ble_adv.o)
+                0x000000001000b4ae                ble_get_adv_var
+                0x000000001000b4b6                ble_adv_init
+ .text          0x000000001000b510      0x13e ..\..\libs\ble\libbtstack.a(ble_buf.o)
+                0x000000001000b510                ble_buf_init_do
+                0x000000001000b606                ble_buf_init
+ *fill*         0x000000001000b64e       0x32 
+ .text.bb.buf   0x000000001000b680       0x98 ..\..\libs\ble\libbtstack.a(ble_buf.o)
+                0x000000001000b680                ble_buf_acl_tx_elt_get
+                0x000000001000b6c0                ble_buf_acl_tx_elt_set
  .text.le.stack
-                0x000000001000b918       0x28 ..\..\libs\ble\libbtstack.a(ble_buf.o)
-                0x000000001000b918                ble_msg_malloc
-                0x000000001000b920                ble_msg_free
-                0x000000001000b928                ble_msg_wrap
-                0x000000001000b936                ble_msg_unwrap
- .text          0x000000001000b940      0x110 ..\..\libs\ble\libbtstack.a(bb_int.o)
-                0x000000001000b940                bb_sleep_init
-                0x000000001000b942                bb_driver_init
- *fill*         0x000000001000ba50       0xb0 
- .text.bb.aes   0x000000001000bb00       0xf4 ..\..\libs\ble\libbtstack.a(bb_int.o)
-                0x000000001000bb00                bb_aes_encrypt
- .text          0x000000001000bbf4      0x292 ..\..\libs\ble\libbtstack.a(bb.o)
-                0x000000001000bc16                bb_rand_init
-                0x000000001000bc1e                bb_get_heap_info
-                0x000000001000bc30                bb_var_init
-                0x000000001000bc38                bb_nanos_mem_init
-                0x000000001000bc7e                bb_reset
-                0x000000001000bd0a                bb_init
-                0x000000001000be2a                bb_off
- .text          0x000000001000be86       0x32 ..\..\libs\ble\libbtstack.a(extern_ble.o)
-                0x000000001000beae                ble_sync_link_info
-                0x000000001000beb4                hci_event_debug_en
- .text          0x000000001000beb8       0x60 ..\..\libs\ble\libbtstack.a(l2cap.o)
-                0x000000001000bf02                l2cap_register_packet_handler
-                0x000000001000bf0a                l2cap_max_le_mtu
+                0x000000001000b718       0x28 ..\..\libs\ble\libbtstack.a(ble_buf.o)
+                0x000000001000b718                ble_msg_malloc
+                0x000000001000b720                ble_msg_free
+                0x000000001000b728                ble_msg_wrap
+                0x000000001000b736                ble_msg_unwrap
+ .text          0x000000001000b740      0x110 ..\..\libs\ble\libbtstack.a(bb_int.o)
+                0x000000001000b740                bb_sleep_init
+                0x000000001000b742                bb_driver_init
+ *fill*         0x000000001000b850       0xb0 
+ .text.bb.aes   0x000000001000b900       0xf4 ..\..\libs\ble\libbtstack.a(bb_int.o)
+                0x000000001000b900                bb_aes_encrypt
+ .text          0x000000001000b9f4      0x292 ..\..\libs\ble\libbtstack.a(bb.o)
+                0x000000001000ba16                bb_rand_init
+                0x000000001000ba1e                bb_get_heap_info
+                0x000000001000ba30                bb_var_init
+                0x000000001000ba38                bb_nanos_mem_init
+                0x000000001000ba7e                bb_reset
+                0x000000001000bb0a                bb_init
+                0x000000001000bc2a                bb_off
+ .text          0x000000001000bc86       0x32 ..\..\libs\ble\libbtstack.a(extern_ble.o)
+                0x000000001000bcae                ble_sync_link_info
+                0x000000001000bcb4                hci_event_debug_en
+ .text          0x000000001000bcb8       0x60 ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000bd02                l2cap_register_packet_handler
+                0x000000001000bd0a                l2cap_max_le_mtu
  .text.stk.l2cap.txreq
-                0x000000001000bf18       0x96 ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000bd18       0x96 ..\..\libs\ble\libbtstack.a(l2cap.o)
  .text.stack.l2cap
-                0x000000001000bfae       0xf6 ..\..\libs\ble\libbtstack.a(l2cap.o)
-                0x000000001000c088                l2cap_get_outgoing_buffer
-                0x000000001000c09a                l2cap_reserve_packet_buffer
-                0x000000001000c0a0                l2cap_release_packet_buffer
+                0x000000001000bdae       0xf6 ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000be88                l2cap_get_outgoing_buffer
+                0x000000001000be9a                l2cap_reserve_packet_buffer
+                0x000000001000bea0                l2cap_release_packet_buffer
  .text.stack.handler.l2cap
-                0x000000001000c0a4      0x11a ..\..\libs\ble\libbtstack.a(l2cap.o)
-                0x000000001000c1ba                l2cap_can_send_fixed_channel_packet_now
+                0x000000001000bea4      0x11a ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000bfba                l2cap_can_send_fixed_channel_packet_now
  .text.stack.l2cap.gap
-                0x000000001000c1be       0x20 ..\..\libs\ble\libbtstack.a(l2cap.o)
-                0x000000001000c1be                gap_request_connection_parameter_update
+                0x000000001000bfbe       0x20 ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000bfbe                gap_request_connection_parameter_update
  .text.stack.setup
-                0x000000001000c1de       0x70 ..\..\libs\ble\libbtstack.a(l2cap.o)
-                0x000000001000c1de                l2cap_init
-                0x000000001000c22c                l2cap_register_fixed_channel
+                0x000000001000bfde       0x70 ..\..\libs\ble\libbtstack.a(l2cap.o)
+                0x000000001000bfde                l2cap_init
+                0x000000001000c02c                l2cap_register_fixed_channel
  .text.stack.setup
-                0x000000001000c24e        0x2 ..\..\libs\ble\libbtstack.a(hci_dump.o)
-                0x000000001000c24e                hci_dump_open
- *fill*         0x000000001000c250        0x0 
+                0x000000001000c04e        0x2 ..\..\libs\ble\libbtstack.a(hci_dump.o)
+                0x000000001000c04e                hci_dump_open
+ *fill*         0x000000001000c050        0x0 
  .text.stack.hci_send
-                0x000000001000c250      0x322 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
-                0x000000001000c250                hci_cmd_create_from_template
- .text          0x000000001000c572        0x2 ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
-                0x000000001000c572                thread_nanos_task_create
- *fill*         0x000000001000c574        0xc 
+                0x000000001000c050      0x322 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
+                0x000000001000c050                hci_cmd_create_from_template
+ .text          0x000000001000c372        0x2 ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
+                0x000000001000c372                thread_nanos_task_create
+ *fill*         0x000000001000c374        0xc 
  .text.stack.run_loop
-                0x000000001000c580      0x16a ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
-                0x000000001000c580                btstack_run_loop_set_timer_handler
-                0x000000001000c584                btstack_run_loop_set_data_source_handler
-                0x000000001000c588                btstack_run_loop_set_data_source_fd
-                0x000000001000c58c                btstack_run_loop_get_data_source_fd
-                0x000000001000c590                btstack_run_loop_enable_data_source_callbacks
-                0x000000001000c59c                btstack_run_loop_disable_data_source_callbacks
-                0x000000001000c5ac                btstack_run_loop_add_data_source
-                0x000000001000c5be                btstack_run_loop_remove_data_source
-                0x000000001000c5d0                btstack_run_loop_set_timer
-                0x000000001000c5ea                btstack_run_loop_set_timer_context
-                0x000000001000c5ee                btstack_run_loop_get_timer_context
-                0x000000001000c600                btstack_run_loop_set_trig_ticks
-                0x000000001000c63c                btstack_run_loop_add_timer
-                0x000000001000c66c                btstack_run_loop_remove_timer
-                0x000000001000c6a4                btstack_run_loop_get_ticks
-                0x000000001000c6ae                btstack_run_loop_ticks_for_ms
-                0x000000001000c6b4                btstack_run_loop_get_time_ms
-                0x000000001000c6c0                btstack_run_loop_timer_dump
+                0x000000001000c380      0x16a ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
+                0x000000001000c380                btstack_run_loop_set_timer_handler
+                0x000000001000c384                btstack_run_loop_set_data_source_handler
+                0x000000001000c388                btstack_run_loop_set_data_source_fd
+                0x000000001000c38c                btstack_run_loop_get_data_source_fd
+                0x000000001000c390                btstack_run_loop_enable_data_source_callbacks
+                0x000000001000c39c                btstack_run_loop_disable_data_source_callbacks
+                0x000000001000c3ac                btstack_run_loop_add_data_source
+                0x000000001000c3be                btstack_run_loop_remove_data_source
+                0x000000001000c3d0                btstack_run_loop_set_timer
+                0x000000001000c3ea                btstack_run_loop_set_timer_context
+                0x000000001000c3ee                btstack_run_loop_get_timer_context
+                0x000000001000c400                btstack_run_loop_set_trig_ticks
+                0x000000001000c43c                btstack_run_loop_add_timer
+                0x000000001000c46c                btstack_run_loop_remove_timer
+                0x000000001000c4a4                btstack_run_loop_get_ticks
+                0x000000001000c4ae                btstack_run_loop_ticks_for_ms
+                0x000000001000c4b4                btstack_run_loop_get_time_ms
+                0x000000001000c4c0                btstack_run_loop_timer_dump
  .text.stack.setup
-                0x000000001000c6ea       0x32 ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
-                0x000000001000c6ea                btstack_run_loop_init
- .text          0x000000001000c71c       0x10 ..\..\libs\ble\libbtstack.a(btstack_main.o)
-                0x000000001000c71c                btstack_ble_set_init_callback
-                0x000000001000c724                btstack_ble_vs_tbox_set_init_callback
+                0x000000001000c4ea       0x32 ..\..\libs\ble\libbtstack.a(btstack_run_loop.o)
+                0x000000001000c4ea                btstack_run_loop_init
+ .text          0x000000001000c51c       0x10 ..\..\libs\ble\libbtstack.a(btstack_main.o)
+                0x000000001000c51c                btstack_ble_set_init_callback
+                0x000000001000c524                btstack_ble_vs_tbox_set_init_callback
  .text.stack.handler
-                0x000000001000c72c       0x60 ..\..\libs\ble\libbtstack.a(btstack_main.o)
+                0x000000001000c52c       0x60 ..\..\libs\ble\libbtstack.a(btstack_main.o)
  .text.stack.ble.setup
-                0x000000001000c78c        0x4 ..\..\libs\ble\libbtstack.a(btstack_main.o)
-                0x000000001000c78c                btstack_ble_init
+                0x000000001000c58c        0x4 ..\..\libs\ble\libbtstack.a(btstack_main.o)
+                0x000000001000c58c                btstack_ble_init
  .text.stack.setup
-                0x000000001000c790       0x34 ..\..\libs\ble\libbtstack.a(btstack_main.o)
-                0x000000001000c790                btstack_main
- .text          0x000000001000c7c4       0x76 ..\..\libs\ble\libbtstack.a(nanos.o)
-                0x000000001000c7c4                nanos_init
-                0x000000001000c7fa                nanos_var_init
- .text          0x000000001000c83a       0x34 ..\..\libs\ble\libbtstack.a(bb_sche.o)
-                0x000000001000c83a                bb_sche_frag_ble_dur_set
-                0x000000001000c84c                bb_sche_init
- .text          0x000000001000c86e       0xae ..\..\libs\ble\libbtstack.a(patch.o)
-                0x000000001000c86e                bb_patch_dummy
-                0x000000001000c870                bb_patch_init
- .text.bb.aes   0x000000001000c91c      0x19a ..\..\libs\ble\libbtstack.a(aes.o)
-                0x000000001000c91c                aes_init
-                0x000000001000c966                aes_alloc
-                0x000000001000c988                aes_start
-                0x000000001000c9c6                aes_encrypt
-                0x000000001000ca12                aes_rand
-                0x000000001000ca4e                aes_result_handler
- .text          0x000000001000cab6       0x38 ..\..\libs\ble\libbtstack.a(extern.o)
-                0x000000001000cacc                bt_rf_get_fcc_param
-                0x000000001000cad4                private_freq_bands_hook
-                0x000000001000cad8                private_access_code_hook
-                0x000000001000cae2                ble_tbox_feature_req_enabled
-                0x000000001000cae6                ble_chmap_instant_pass_discon
-                0x000000001000caea                ble_adv_duration_get
- .text          0x000000001000caee       0x9c ..\..\libs\ble\libbtstack.a(vs.o)
-                0x000000001000caee                vs_init
-                0x000000001000cb2a                vs_reset_complete_evt
- .text          0x000000001000cb8a      0x2ca ..\..\libs\ble\libbtstack.a(rf_mate.o)
-                0x000000001000cc70                rfphy_tx
-                0x000000001000ce22                rfphy_test
-                0x000000001000ce24                ble_rf_external_pa_init
+                0x000000001000c590       0x34 ..\..\libs\ble\libbtstack.a(btstack_main.o)
+                0x000000001000c590                btstack_main
+ .text          0x000000001000c5c4       0x76 ..\..\libs\ble\libbtstack.a(nanos.o)
+                0x000000001000c5c4                nanos_init
+                0x000000001000c5fa                nanos_var_init
+ .text          0x000000001000c63a       0x34 ..\..\libs\ble\libbtstack.a(bb_sche.o)
+                0x000000001000c63a                bb_sche_frag_ble_dur_set
+                0x000000001000c64c                bb_sche_init
+ .text          0x000000001000c66e       0xae ..\..\libs\ble\libbtstack.a(patch.o)
+                0x000000001000c66e                bb_patch_dummy
+                0x000000001000c670                bb_patch_init
+ .text.bb.aes   0x000000001000c71c      0x19a ..\..\libs\ble\libbtstack.a(aes.o)
+                0x000000001000c71c                aes_init
+                0x000000001000c766                aes_alloc
+                0x000000001000c788                aes_start
+                0x000000001000c7c6                aes_encrypt
+                0x000000001000c812                aes_rand
+                0x000000001000c84e                aes_result_handler
+ .text          0x000000001000c8b6       0x38 ..\..\libs\ble\libbtstack.a(extern.o)
+                0x000000001000c8cc                bt_rf_get_fcc_param
+                0x000000001000c8d4                private_freq_bands_hook
+                0x000000001000c8d8                private_access_code_hook
+                0x000000001000c8e2                ble_tbox_feature_req_enabled
+                0x000000001000c8e6                ble_chmap_instant_pass_discon
+                0x000000001000c8ea                ble_adv_duration_get
+ .text          0x000000001000c8ee       0x9c ..\..\libs\ble\libbtstack.a(vs.o)
+                0x000000001000c8ee                vs_init
+                0x000000001000c92a                vs_reset_complete_evt
+ .text          0x000000001000c98a      0x2ca ..\..\libs\ble\libbtstack.a(rf_mate.o)
+                0x000000001000ca70                rfphy_tx
+                0x000000001000cc22                rfphy_test
+                0x000000001000cc24                ble_rf_external_pa_init
  .text.rfphy.other
-                0x000000001000ce54       0x8a ..\..\libs\ble\libbtstack.a(rf_mate.o)
+                0x000000001000cc54       0x8a ..\..\libs\ble\libbtstack.a(rf_mate.o)
  .text.rf.param.init
-                0x000000001000cede       0xf4 ..\..\libs\ble\libbtstack.a(rf_mate.o)
- .text.bb.rf    0x000000001000cfd2       0x7a ..\..\libs\ble\libbtstack.a(rf_mate.o)
-                0x000000001000cfd2                rfphy_sw_ctrl
-                0x000000001000d002                rfphy_tx_pwr
+                0x000000001000ccde       0xf4 ..\..\libs\ble\libbtstack.a(rf_mate.o)
+ .text.bb.rf    0x000000001000cdd2       0x7a ..\..\libs\ble\libbtstack.a(rf_mate.o)
+                0x000000001000cdd2                rfphy_sw_ctrl
+                0x000000001000ce02                rfphy_tx_pwr
  .text.bb.phy.tx
-                0x000000001000d04c       0x8c ..\..\libs\ble\libbtstack.a(rf_mate.o)
-                0x000000001000d04c                rfphy_tx_tone
- .text          0x000000001000d0d8        0x2 ..\..\libs\ble\libbtstack.a(ble_hook.o)
-                0x000000001000d0d8                ble_hal_init_hook
- .text          0x000000001000d0da        0x4 ..\..\libs\ble\libbtstack.a(adv_hook.o)
-                0x000000001000d0da                ble_adv_end_ind_hook
- .text          0x000000001000d0de      0x128 ..\..\libs\ble\libbtstack.a(hct_msg.o)
-                0x000000001000d0de                hci_look_for_cmd_desc
-                0x000000001000d168                hci_look_for_evt_desc
-                0x000000001000d1aa                hci_look_for_dbg_evt_desc
-                0x000000001000d1c4                hci_look_for_le_evt_desc
- .text          0x000000001000d206      0x220 ..\..\libs\ble\libbtstack.a(mgr_test.o)
-                0x000000001000d228                ble_test_end_ind_func
-                0x000000001000d26a                hci_le_rx_test_v1_cmd_func
-                0x000000001000d2b0                hci_le_tx_test_v1_cmd_func
-                0x000000001000d314                hci_le_rx_test_v2_cmd_func
-                0x000000001000d374                hci_le_tx_test_v2_cmd_func
-                0x000000001000d3ea                hci_le_test_end_cmd_func
- .text          0x000000001000d426       0x3c ..\..\libs\ble\libbtstack.a(mgr_proc.o)
- .text          0x000000001000d462       0x60 ..\..\libs\ble\libbtstack.a(ll_version.o)
-                0x000000001000d48e                ble_ll_version_get
+                0x000000001000ce4c       0x8c ..\..\libs\ble\libbtstack.a(rf_mate.o)
+                0x000000001000ce4c                rfphy_tx_tone
+ .text          0x000000001000ced8        0x2 ..\..\libs\ble\libbtstack.a(ble_hook.o)
+                0x000000001000ced8                ble_hal_init_hook
+ .text          0x000000001000ceda        0x4 ..\..\libs\ble\libbtstack.a(adv_hook.o)
+                0x000000001000ceda                ble_adv_end_ind_hook
+ .text          0x000000001000cede      0x128 ..\..\libs\ble\libbtstack.a(hct_msg.o)
+                0x000000001000cede                hci_look_for_cmd_desc
+                0x000000001000cf68                hci_look_for_evt_desc
+                0x000000001000cfaa                hci_look_for_dbg_evt_desc
+                0x000000001000cfc4                hci_look_for_le_evt_desc
+ .text          0x000000001000d006      0x220 ..\..\libs\ble\libbtstack.a(mgr_test.o)
+                0x000000001000d028                ble_test_end_ind_func
+                0x000000001000d06a                hci_le_rx_test_v1_cmd_func
+                0x000000001000d0b0                hci_le_tx_test_v1_cmd_func
+                0x000000001000d114                hci_le_rx_test_v2_cmd_func
+                0x000000001000d174                hci_le_tx_test_v2_cmd_func
+                0x000000001000d1ea                hci_le_test_end_cmd_func
+ .text          0x000000001000d226       0x3c ..\..\libs\ble\libbtstack.a(mgr_proc.o)
+ .text          0x000000001000d262       0x60 ..\..\libs\ble\libbtstack.a(ll_version.o)
+                0x000000001000d28e                ble_ll_version_get
  .text.le.ll_cntl.pdu
-                0x000000001000d4c2      0x14e ..\..\libs\ble\libbtstack.a(ll_version.o)
-                0x000000001000d4c2                ll_version_ind_func
- .text          0x000000001000d610      0x174 ..\..\libs\ble\libbtstack.a(ll_tbox_prod_test.o)
-                0x000000001000d6dc                ll_op_tbox_prod_test_ind_func
-                0x000000001000d710                ll_tbox_prod_test_proc_start
+                0x000000001000d2c2      0x14e ..\..\libs\ble\libbtstack.a(ll_version.o)
+                0x000000001000d2c2                ll_version_ind_func
+ .text          0x000000001000d410      0x174 ..\..\libs\ble\libbtstack.a(ll_tbox_prod_test.o)
+                0x000000001000d4dc                ll_op_tbox_prod_test_ind_func
+                0x000000001000d510                ll_tbox_prod_test_proc_start
  .text.le.ll_cntl.pdu
-                0x000000001000d784       0xae ..\..\libs\ble\libbtstack.a(ll_tbox_prod_test.o)
-                0x000000001000d784                ll_tbox_prod_test_req_func
-                0x000000001000d7fe                ll_tbox_prod_test_rsp_func
- .text          0x000000001000d832      0x28a ..\..\libs\ble\libbtstack.a(ll_tbox_freq_cal.o)
-                0x000000001000d916                ll_op_tbox_freq_cal_ind_func
-                0x000000001000d94a                ll_op_tbox_freq_cal_end_ind_func
-                0x000000001000da44                ll_tbox_freq_cal_proc_start
+                0x000000001000d584       0xae ..\..\libs\ble\libbtstack.a(ll_tbox_prod_test.o)
+                0x000000001000d584                ll_tbox_prod_test_req_func
+                0x000000001000d5fe                ll_tbox_prod_test_rsp_func
+ .text          0x000000001000d632      0x28a ..\..\libs\ble\libbtstack.a(ll_tbox_freq_cal.o)
+                0x000000001000d716                ll_op_tbox_freq_cal_ind_func
+                0x000000001000d74a                ll_op_tbox_freq_cal_end_ind_func
+                0x000000001000d844                ll_tbox_freq_cal_proc_start
  .text.le.ll_cntl.pdu
-                0x000000001000dabc      0x138 ..\..\libs\ble\libbtstack.a(ll_tbox_freq_cal.o)
-                0x000000001000dabc                ll_tbox_freq_cal_req_func
-                0x000000001000db6c                ll_tbox_freq_cal_rsp_func
- .text          0x000000001000dbf4      0x156 ..\..\libs\ble\libbtstack.a(ll_tbox_feature.o)
-                0x000000001000dc96                ll_op_tbox_feat_exch_ind_func
-                0x000000001000dcca                ll_tbox_feat_proc_start
+                0x000000001000d8bc      0x138 ..\..\libs\ble\libbtstack.a(ll_tbox_freq_cal.o)
+                0x000000001000d8bc                ll_tbox_freq_cal_req_func
+                0x000000001000d96c                ll_tbox_freq_cal_rsp_func
+ .text          0x000000001000d9f4      0x156 ..\..\libs\ble\libbtstack.a(ll_tbox_feature.o)
+                0x000000001000da96                ll_op_tbox_feat_exch_ind_func
+                0x000000001000daca                ll_tbox_feat_proc_start
  .text.le.ll_cntl.pdu
-                0x000000001000dd4a      0x190 ..\..\libs\ble\libbtstack.a(ll_tbox_feature.o)
-                0x000000001000dd4a                ll_tbox_feat_req_func
-                0x000000001000de68                ll_tbox_feat_rsp_func
- .text          0x000000001000deda      0x2b6 ..\..\libs\ble\libbtstack.a(ll_proc.o)
-                0x000000001000defa                hci_command_ll_func
-                0x000000001000df32                ble_acl_rx_ind_func
-                0x000000001000e0a6                ble_acl_tx_cfm_func
-                0x000000001000e0b6                ll_cmd_cmp_send
-                0x000000001000e0e8                hci_vs_set_pref_slave_latency_cmd_func
-                0x000000001000e13e                hci_vs_tbox_prod_test_req_cmd_func
-                0x000000001000e168                ll_cmd_stat_send
- *fill*         0x000000001000e190        0x0 
- .text          0x000000001000e190      0xa26 ..\..\libs\ble\libbtstack.a(ll_phy_upd.o)
-                0x000000001000ea56                ll_op_phy_upd_ind_func
-                0x000000001000eaf2                ble_phy_upd_cfm_func
-                0x000000001000eb32                ll_phy_upd_proc_start
+                0x000000001000db4a      0x190 ..\..\libs\ble\libbtstack.a(ll_tbox_feature.o)
+                0x000000001000db4a                ll_tbox_feat_req_func
+                0x000000001000dc68                ll_tbox_feat_rsp_func
+ .text          0x000000001000dcda      0x2b6 ..\..\libs\ble\libbtstack.a(ll_proc.o)
+                0x000000001000dcfa                hci_command_ll_func
+                0x000000001000dd32                ble_acl_rx_ind_func
+                0x000000001000dea6                ble_acl_tx_cfm_func
+                0x000000001000deb6                ll_cmd_cmp_send
+                0x000000001000dee8                hci_vs_set_pref_slave_latency_cmd_func
+                0x000000001000df3e                hci_vs_tbox_prod_test_req_cmd_func
+                0x000000001000df68                ll_cmd_stat_send
+ *fill*         0x000000001000df90        0x0 
+ .text          0x000000001000df90      0xa26 ..\..\libs\ble\libbtstack.a(ll_phy_upd.o)
+                0x000000001000e856                ll_op_phy_upd_ind_func
+                0x000000001000e8f2                ble_phy_upd_cfm_func
+                0x000000001000e932                ll_phy_upd_proc_start
  .text.le.ll_cntl.pdu
-                0x000000001000ebb6      0x264 ..\..\libs\ble\libbtstack.a(ll_phy_upd.o)
-                0x000000001000ebb6                ll_phy_req_func
-                0x000000001000ec8c                ll_phy_rsp_func
-                0x000000001000ed26                ll_phy_update_ind_func
- .text          0x000000001000ee1a      0x3ae ..\..\libs\ble\libbtstack.a(ll_length.o)
-                0x000000001000f0be                ll_op_length_upd_ind_func
-                0x000000001000f12c                ll_length_proc_start_for_param
-                0x000000001000f194                ll_length_proc_start
+                0x000000001000e9b6      0x264 ..\..\libs\ble\libbtstack.a(ll_phy_upd.o)
+                0x000000001000e9b6                ll_phy_req_func
+                0x000000001000ea8c                ll_phy_rsp_func
+                0x000000001000eb26                ll_phy_update_ind_func
+ .text          0x000000001000ec1a      0x3ae ..\..\libs\ble\libbtstack.a(ll_length.o)
+                0x000000001000eebe                ll_op_length_upd_ind_func
+                0x000000001000ef2c                ll_length_proc_start_for_param
+                0x000000001000ef94                ll_length_proc_start
  .text.le.ll_cntl.pdu
-                0x000000001000f1c8      0x214 ..\..\libs\ble\libbtstack.a(ll_length.o)
-                0x000000001000f1c8                ll_length_req_func
-                0x000000001000f33a                ll_length_rsp_func
- .text          0x000000001000f3dc      0x2c6 ..\..\libs\ble\libbtstack.a(ll_feature.o)
-                0x000000001000f5a2                ll_op_feats_exch_ind_func
-                0x000000001000f61e                ll_feature_exchange_proc_start
-                0x000000001000f66e                ble_ll_feature_exchange_get
+                0x000000001000efc8      0x214 ..\..\libs\ble\libbtstack.a(ll_length.o)
+                0x000000001000efc8                ll_length_req_func
+                0x000000001000f13a                ll_length_rsp_func
+ .text          0x000000001000f1dc      0x2c6 ..\..\libs\ble\libbtstack.a(ll_feature.o)
+                0x000000001000f3a2                ll_op_feats_exch_ind_func
+                0x000000001000f41e                ll_feature_exchange_proc_start
+                0x000000001000f46e                ble_ll_feature_exchange_get
  .text.le.ll_cntl.pdu
-                0x000000001000f6a2      0x168 ..\..\libs\ble\libbtstack.a(ll_feature.o)
-                0x000000001000f6a2                ll_feature_req_func
-                0x000000001000f716                ll_slave_feature_req_func
-                0x000000001000f78a                ll_feature_rsp_func
- *fill*         0x000000001000f80a        0x2 
- .text          0x000000001000f80c      0x850 ..\..\libs\ble\libbtstack.a(ll_encrypt.o)
-                0x000000001000fdee                hci_le_ltk_req_reply_cmd_func
-                0x000000001000fe6c                hci_le_ltk_req_neg_reply_cmd_func
-                0x000000001000ff06                ll_encrypt_ind_func
-                0x000000001000fff2                ll_op_encrypt_ind_func
+                0x000000001000f4a2      0x168 ..\..\libs\ble\libbtstack.a(ll_feature.o)
+                0x000000001000f4a2                ll_feature_req_func
+                0x000000001000f516                ll_slave_feature_req_func
+                0x000000001000f58a                ll_feature_rsp_func
+ *fill*         0x000000001000f60a        0x2 
+ .text          0x000000001000f60c      0x850 ..\..\libs\ble\libbtstack.a(ll_encrypt.o)
+                0x000000001000fbee                hci_le_ltk_req_reply_cmd_func
+                0x000000001000fc6c                hci_le_ltk_req_neg_reply_cmd_func
+                0x000000001000fd06                ll_encrypt_ind_func
+                0x000000001000fdf2                ll_op_encrypt_ind_func
  .text.le.ll_cntl.pdu
-                0x000000001001005c      0x348 ..\..\libs\ble\libbtstack.a(ll_encrypt.o)
-                0x000000001001005c                ll_pause_enc_req_func
-                0x00000000100100e2                ll_pause_enc_rsp_func
-                0x000000001001014e                ll_enc_req_func
-                0x0000000010010268                ll_enc_rsp_func
-                0x00000000100102ee                ll_start_enc_req_func
-                0x000000001001034a                ll_start_enc_rsp_func
- .text          0x00000000100103a4      0x128 ..\..\libs\ble\libbtstack.a(ll_disconnect.o)
-                0x00000000100103a4                ll_stopped_ind_func
-                0x000000001001041c                hci_disconnect_cmd_func
- .text          0x00000000100104cc       0x28 ..\..\libs\ble\libbtstack.a(ble_test.o)
-                0x00000000100104cc                ble_test_init
-                0x00000000100104ec                ble_get_test_var
+                0x000000001000fe5c      0x348 ..\..\libs\ble\libbtstack.a(ll_encrypt.o)
+                0x000000001000fe5c                ll_pause_enc_req_func
+                0x000000001000fee2                ll_pause_enc_rsp_func
+                0x000000001000ff4e                ll_enc_req_func
+                0x0000000010010068                ll_enc_rsp_func
+                0x00000000100100ee                ll_start_enc_req_func
+                0x000000001001014a                ll_start_enc_rsp_func
+ .text          0x00000000100101a4      0x128 ..\..\libs\ble\libbtstack.a(ll_disconnect.o)
+                0x00000000100101a4                ll_stopped_ind_func
+                0x000000001001021c                hci_disconnect_cmd_func
+ .text          0x00000000100102cc       0x28 ..\..\libs\ble\libbtstack.a(ble_test.o)
+                0x00000000100102cc                ble_test_init
+                0x00000000100102ec                ble_get_test_var
  .text.bb.ble.test.start
-                0x00000000100104f4       0x2e ..\..\libs\ble\libbtstack.a(ble_test.o)
-                0x00000000100104f4                ble_test_start
- .text          0x0000000010010522       0x42 ..\..\libs\ble\libbtstack.a(ble.o)
-                0x0000000010010522                ble_init
+                0x00000000100102f4       0x2e ..\..\libs\ble\libbtstack.a(ble_test.o)
+                0x00000000100102f4                ble_test_start
+ .text          0x0000000010010322       0x42 ..\..\libs\ble\libbtstack.a(ble.o)
+                0x0000000010010322                ble_init
  .text.ble.var.init
-                0x0000000010010564       0x52 ..\..\libs\ble\libbtstack.a(ble.o)
-                0x0000000010010564                ble_var_init
+                0x0000000010010364       0x52 ..\..\libs\ble\libbtstack.a(ble.o)
+                0x0000000010010364                ble_var_init
  .text.bb.timer.ind
-                0x00000000100105b6       0x24 ..\..\libs\ble\libbtstack.a(bb_alarm.o)
-                0x00000000100105b6                bb_timer_end_ind
+                0x00000000100103b6       0x24 ..\..\libs\ble\libbtstack.a(bb_alarm.o)
+                0x00000000100103b6                bb_timer_end_ind
  .text.bb.timer.init
-                0x00000000100105da       0xcc ..\..\libs\ble\libbtstack.a(bb_alarm.o)
-                0x00000000100105da                bb_timer_init
+                0x00000000100103da       0xcc ..\..\libs\ble\libbtstack.a(bb_alarm.o)
+                0x00000000100103da                bb_timer_init
  .text.stack.l2cap_sig
-                0x00000000100106a6      0x126 ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
-                0x00000000100106a6                l2cap_create_signaling_le
- .text          0x00000000100107cc       0xb6 ..\..\libs\ble\libbtstack.a(vs_proc.o)
+                0x00000000100104a6      0x126 ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
+                0x00000000100104a6                l2cap_create_signaling_le
+ .text          0x00000000100105cc       0xb6 ..\..\libs\ble\libbtstack.a(vs_proc.o)
  .text.bb.vs.fcc_ble.do
-                0x0000000010010882       0x8a ..\..\libs\ble\libbtstack.a(vs_fcc.o)
-                0x0000000010010882                vs_ble_test_do
+                0x0000000010010682       0x8a ..\..\libs\ble\libbtstack.a(vs_fcc.o)
+                0x0000000010010682                vs_ble_test_do
  .text.bb.vs.fcc
-                0x000000001001090c       0xc2 ..\..\libs\ble\libbtstack.a(vs_fcc.o)
-                0x000000001001090c                vs_ble_test
-                0x0000000010010910                vs_fcc_test_cmd
- .text          0x00000000100109ce        0x4 ..\..\libs\ble\libbtstack.a(ble_sync.o)
-                0x00000000100109ce                ble_get_sync_var
- .text          0x00000000100109d2        0x8 ..\..\libs\ble\libbtstack.a(ble_scan.o)
-                0x00000000100109d2                ble_get_scan_var
-                0x00000000100109d6                ble_get_ssync_var
- .text          0x00000000100109da        0x4 ..\..\libs\ble\libbtstack.a(ble_init.o)
-                0x00000000100109da                ble_get_init_var
+                0x000000001001070c       0xc2 ..\..\libs\ble\libbtstack.a(vs_fcc.o)
+                0x000000001001070c                vs_ble_test
+                0x0000000010010710                vs_fcc_test_cmd
+ .text          0x00000000100107ce        0x4 ..\..\libs\ble\libbtstack.a(ble_sync.o)
+                0x00000000100107ce                ble_get_sync_var
+ .text          0x00000000100107d2        0x8 ..\..\libs\ble\libbtstack.a(ble_scan.o)
+                0x00000000100107d2                ble_get_scan_var
+                0x00000000100107d6                ble_get_ssync_var
+ .text          0x00000000100107da        0x4 ..\..\libs\ble\libbtstack.a(ble_init.o)
+                0x00000000100107da                ble_get_init_var
  *(.rodata*)
- *fill*         0x00000000100109de        0x2 
+ *fill*         0x00000000100107de        0x2 
  .rodata.str1.4
-                0x00000000100109e0       0x3b Output\obj\driver\driver_lowpwr.o
- *fill*         0x0000000010010a1b        0x1 
- .rodata.adv    0x0000000010010a1c        0x7 Output\obj\project\ble_peripheral\ble\ble_adv.o
-                0x0000000010010a1c                adv_data_const
- *fill*         0x0000000010010a23        0x1 
- .rodata        0x0000000010010a24       0x40 Output\obj\project\ble_peripheral\ble\ble_profile.o
-                0x0000000010010a24                profile_data
- .rodata.str1.4
-                0x0000000010010a64       0x4c Output\obj\project\ble_peripheral\bsp\bsp_uart_transfer.o
- .rodata        0x0000000010010ab0       0x10 Output\obj\project\ble_peripheral\strong_symbol.o
+                0x00000000100107e0       0x3b Output\obj\driver\driver_lowpwr.o
+ *fill*         0x000000001001081b        0x1 
+ .rodata.adv    0x000000001001081c        0x7 Output\obj\project\ble_peripheral\ble\ble_adv.o
+                0x000000001001081c                adv_data_const
+ *fill*         0x0000000010010823        0x1 
+ .rodata        0x0000000010010824       0x40 Output\obj\project\ble_peripheral\ble\ble_profile.o
+                0x0000000010010824                profile_data
+ .rodata        0x0000000010010864       0x10 Output\obj\project\ble_peripheral\strong_symbol.o
  .rodata.cm_next_freepage.str1.4
-                0x0000000010010ac0        0xc ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010010874        0xc ..\..\libs\cpu\libplatform.a(cm.o)
  .rodata.cm_movepage.str1.4
-                0x0000000010010acc       0x10 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010010880       0x10 ..\..\libs\cpu\libplatform.a(cm.o)
  .rodata.cm_release.str1.4
-                0x0000000010010adc       0x22 ..\..\libs\cpu\libplatform.a(cm.o)
- *fill*         0x0000000010010afe        0x2 
+                0x0000000010010890       0x22 ..\..\libs\cpu\libplatform.a(cm.o)
+ *fill*         0x00000000100108b2        0x2 
  .rodata.cm_savepage.str1.4
-                0x0000000010010b00       0x13 ..\..\libs\cpu\libplatform.a(cm.o)
- *fill*         0x0000000010010b13        0x1 
+                0x00000000100108b4       0x13 ..\..\libs\cpu\libplatform.a(cm.o)
+ *fill*         0x00000000100108c7        0x1 
  .rodata.cm_check_loadpage.str1.4
-                0x0000000010010b14       0x3b ..\..\libs\cpu\libplatform.a(cm.o)
- *fill*         0x0000000010010b4f        0x1 
+                0x00000000100108c8       0x3b ..\..\libs\cpu\libplatform.a(cm.o)
+ *fill*         0x0000000010010903        0x1 
  .rodata.cm_init.str1.4
-                0x0000000010010b50       0x30 ..\..\libs\cpu\libplatform.a(cm.o)
+                0x0000000010010904       0x30 ..\..\libs\cpu\libplatform.a(cm.o)
  .rodata.platform_main.str1.4
-                0x0000000010010b80       0x10 ..\..\libs\cpu\libplatform.a(main.o)
+                0x0000000010010934       0x10 ..\..\libs\cpu\libplatform.a(main.o)
  .rodata.thread_btstack_create.str1.4
-                0x0000000010010b90        0xc ..\..\libs\cpu\libplatform.a(startup.o)
+                0x0000000010010944        0xc ..\..\libs\cpu\libplatform.a(startup.o)
  .rodata.startup.init.str1.4
-                0x0000000010010b9c       0x2b ..\..\libs\cpu\libplatform.a(startup.o)
- *fill*         0x0000000010010bc7        0x1 
+                0x0000000010010950       0x2b ..\..\libs\cpu\libplatform.a(startup.o)
+ *fill*         0x000000001001097b        0x1 
  .rodata.pll0_vco_band_trimming.str1.4
-                0x0000000010010bc8       0x20 ..\..\libs\cpu\libplatform.a(pll.o)
+                0x000000001001097c       0x20 ..\..\libs\cpu\libplatform.a(pll.o)
  .rodata.patch_init.str1.4
-                0x0000000010010be8       0x1b ..\..\libs\cpu\libplatform.a(patch.o)
- *fill*         0x0000000010010c03        0x1 
+                0x000000001001099c       0x1b ..\..\libs\cpu\libplatform.a(patch.o)
+ *fill*         0x00000000100109b7        0x1 
  .rodata.sys_rst_dump.str1.4
-                0x0000000010010c04       0x45 ..\..\libs\cpu\libplatform.a(sys.o)
- *fill*         0x0000000010010c49        0x3 
+                0x00000000100109b8       0x45 ..\..\libs\cpu\libplatform.a(sys.o)
+ *fill*         0x00000000100109fd        0x3 
  .rodata.str1.4
-                0x0000000010010c4c       0x57 ..\..\libs\ble\libbtstack.a(hci.o)
- *fill*         0x0000000010010ca3        0x1 
- .rodata        0x0000000010010ca4       0x20 ..\..\libs\ble\libbtstack.a(btstack_util.o)
-                0x0000000010010cb4                bluetooth_base_uuid
- .rodata        0x0000000010010cc4       0x10 ..\..\libs\ble\libbtstack.a(att_db.o)
- .rodata        0x0000000010010cd4       0x20 ..\..\libs\ble\libbtstack.a(hci_transport_dummy.o)
+                0x0000000010010a00       0x57 ..\..\libs\ble\libbtstack.a(hci.o)
+ *fill*         0x0000000010010a57        0x1 
+ .rodata        0x0000000010010a58       0x20 ..\..\libs\ble\libbtstack.a(btstack_util.o)
+                0x0000000010010a68                bluetooth_base_uuid
+ .rodata        0x0000000010010a78       0x10 ..\..\libs\ble\libbtstack.a(att_db.o)
+ .rodata        0x0000000010010a88       0x20 ..\..\libs\ble\libbtstack.a(hci_transport_dummy.o)
  .rodata.str1.4
-                0x0000000010010cf4       0x19 ..\..\libs\ble\libbtstack.a(btstack_api.o)
- *fill*         0x0000000010010d0d        0x3 
- .rodata        0x0000000010010d10       0x21 ..\..\libs\ble\libbtstack.a(btstack_api.o)
- *fill*         0x0000000010010d31        0x3 
+                0x0000000010010aa8       0x19 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+ *fill*         0x0000000010010ac1        0x3 
+ .rodata        0x0000000010010ac4       0x21 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+ *fill*         0x0000000010010ae5        0x3 
  .rodata.stack.api
-                0x0000000010010d34       0x94 ..\..\libs\ble\libbtstack.a(btstack_api.o)
-                0x0000000010010d34                btstack_basic_tbl
-                0x0000000010010d44                btstack_ctl_tbl
-                0x0000000010010db8                btstack_api_tbl
+                0x0000000010010ae8       0x94 ..\..\libs\ble\libbtstack.a(btstack_api.o)
+                0x0000000010010ae8                btstack_basic_tbl
+                0x0000000010010af8                btstack_ctl_tbl
+                0x0000000010010b6c                btstack_api_tbl
  .rodata.str1.4
-                0x0000000010010dc8        0x9 ..\..\libs\ble\libbtstack.a(hct_proc.o)
- *fill*         0x0000000010010dd1        0x3 
- .rodata        0x0000000010010dd4       0x4c ..\..\libs\ble\libbtstack.a(hct_proc.o)
+                0x0000000010010b7c        0x9 ..\..\libs\ble\libbtstack.a(hct_proc.o)
+ *fill*         0x0000000010010b85        0x3 
+ .rodata        0x0000000010010b88       0x4c ..\..\libs\ble\libbtstack.a(hct_proc.o)
  .rodata.le.mgr_cntl.tbl
-                0x0000000010010e20       0x68 ..\..\libs\ble\libbtstack.a(mgr_hci.o)
-                0x0000000010010e20                mgr_hci_cmd_tbl
+                0x0000000010010bd4       0x68 ..\..\libs\ble\libbtstack.a(mgr_hci.o)
+                0x0000000010010bd4                mgr_hci_cmd_tbl
  .rodata.str1.4
-                0x0000000010010e88       0x5c ..\..\libs\ble\libbtstack.a(ll_cntl.o)
+                0x0000000010010c3c       0x5c ..\..\libs\ble\libbtstack.a(ll_cntl.o)
                                          0x60 (size before relaxing)
  .rodata.le.ll_cntl.tbl
-                0x0000000010010ee4      0x408 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
-                0x0000000010010ee4                ll_cntl_pdu_tbl
+                0x0000000010010c98      0x408 ..\..\libs\ble\libbtstack.a(ll_cntl.o)
+                0x0000000010010c98                ll_cntl_pdu_tbl
  .rodata.bb.tbl
-                0x00000000100112ec        0x8 ..\..\libs\ble\libbtstack.a(ble_con.o)
-                0x00000000100112ec                connect_req_dur_tab
+                0x00000000100110a0        0x8 ..\..\libs\ble\libbtstack.a(ble_con.o)
+                0x00000000100110a0                connect_req_dur_tab
  .rodata.bb.tbl
-                0x00000000100112f4       0x10 ..\..\libs\ble\libbtstack.a(bb_utils.o)
-                0x00000000100112f4                null_array
+                0x00000000100110a8       0x10 ..\..\libs\ble\libbtstack.a(bb_utils.o)
+                0x00000000100110a8                null_array
  .rodata.str1.4
-                0x0000000010011304       0x21 ..\..\libs\ble\libbtstack.a(bb.o)
- *fill*         0x0000000010011325        0x3 
- .rodata        0x0000000010011328       0x24 ..\..\libs\ble\libbtstack.a(bb.o)
-                0x0000000010011328                bb_hook
+                0x00000000100110b8       0x21 ..\..\libs\ble\libbtstack.a(bb.o)
+ *fill*         0x00000000100110d9        0x3 
+ .rodata        0x00000000100110dc       0x24 ..\..\libs\ble\libbtstack.a(bb.o)
+                0x00000000100110dc                bb_hook
  .rodata.stack.l2cap
-                0x000000001001134c        0x2 ..\..\libs\ble\libbtstack.a(l2cap.o)
- *fill*         0x000000001001134e        0x2 
+                0x0000000010011100        0x2 ..\..\libs\ble\libbtstack.a(l2cap.o)
+ *fill*         0x0000000010011102        0x2 
  .rodata.str1.4
-                0x0000000010011350       0x9d ..\..\libs\ble\libbtstack.a(hci_cmd.o)
+                0x0000000010011104       0x9d ..\..\libs\ble\libbtstack.a(hci_cmd.o)
                                          0xb5 (size before relaxing)
- *fill*         0x00000000100113ed        0x3 
+ *fill*         0x00000000100111a1        0x3 
  .rodata.btstakc.hci
-                0x00000000100113f0        0x8 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
-                0x00000000100113f0                hci_num_of_packet_complete
+                0x00000000100111a4        0x8 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
+                0x00000000100111a4                hci_num_of_packet_complete
  .rodata.stack.hci_send
-                0x00000000100113f8      0x108 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
-                0x00000000100113f8                hci_le_tbox_prod_test_request
-                0x0000000010011400                hci_le_set_pref_slave_latency
-                0x0000000010011408                hci_le_write_rf_path_compensation
-                0x0000000010011410                hci_le_read_rf_path_compensation
-                0x0000000010011418                hci_le_transmit_power
-                0x0000000010011420                hci_le_read_periodic_adv_list_size
-                0x0000000010011428                hci_le_set_default_phy
-                0x0000000010011430                hci_le_long_term_key_negative_reply
-                0x0000000010011438                hci_le_long_term_key_request_reply
-                0x0000000010011440                hci_le_rand
-                0x0000000010011448                hci_le_encrypt
-                0x0000000010011450                hci_le_connection_update
-                0x0000000010011458                hci_le_add_device_to_per_adv_list
-                0x0000000010011460                hci_le_per_advertising_terminate_sync
-                0x0000000010011468                hci_le_per_advertising_creat_sync_cancel
-                0x0000000010011470                hci_le_per_advertising_creat_sync
-                0x0000000010011478                hci_ext_creat_connection
-                0x0000000010011480                hci_le_set_ext_scan_enable
-                0x0000000010011488                hci_le_set_ext_scan_parameters
-                0x0000000010011490                hci_le_set_per_advertise_enable
-                0x0000000010011498                hci_le_set_per_advertising_data
-                0x00000000100114a0                hci_le_set_per_advertising_parameters
-                0x00000000100114a8                hci_le_set_ext_advertise_enable
-                0x00000000100114b0                hci_le_set_ext_scan_response_data
-                0x00000000100114b8                hci_le_set_ext_advertising_data
-                0x00000000100114c0                hci_le_set_ext_advertising_parameters
-                0x00000000100114c8                hci_le_set_advertise_enable
-                0x00000000100114d0                hci_le_set_scan_response_data
-                0x00000000100114d8                hci_le_set_advertising_data
-                0x00000000100114e0                hci_le_set_advertising_parameters
-                0x00000000100114e8                hci_le_set_random_address
-                0x00000000100114f0                hci_le_read_buffer_size
-                0x00000000100114f8                hci_disconnect
- .rodata        0x0000000010011500       0x24 ..\..\libs\ble\libbtstack.a(bb_sche.o)
+                0x00000000100111ac      0x108 ..\..\libs\ble\libbtstack.a(hci_cmd.o)
+                0x00000000100111ac                hci_le_tbox_prod_test_request
+                0x00000000100111b4                hci_le_set_pref_slave_latency
+                0x00000000100111bc                hci_le_write_rf_path_compensation
+                0x00000000100111c4                hci_le_read_rf_path_compensation
+                0x00000000100111cc                hci_le_transmit_power
+                0x00000000100111d4                hci_le_read_periodic_adv_list_size
+                0x00000000100111dc                hci_le_set_default_phy
+                0x00000000100111e4                hci_le_long_term_key_negative_reply
+                0x00000000100111ec                hci_le_long_term_key_request_reply
+                0x00000000100111f4                hci_le_rand
+                0x00000000100111fc                hci_le_encrypt
+                0x0000000010011204                hci_le_connection_update
+                0x000000001001120c                hci_le_add_device_to_per_adv_list
+                0x0000000010011214                hci_le_per_advertising_terminate_sync
+                0x000000001001121c                hci_le_per_advertising_creat_sync_cancel
+                0x0000000010011224                hci_le_per_advertising_creat_sync
+                0x000000001001122c                hci_ext_creat_connection
+                0x0000000010011234                hci_le_set_ext_scan_enable
+                0x000000001001123c                hci_le_set_ext_scan_parameters
+                0x0000000010011244                hci_le_set_per_advertise_enable
+                0x000000001001124c                hci_le_set_per_advertising_data
+                0x0000000010011254                hci_le_set_per_advertising_parameters
+                0x000000001001125c                hci_le_set_ext_advertise_enable
+                0x0000000010011264                hci_le_set_ext_scan_response_data
+                0x000000001001126c                hci_le_set_ext_advertising_data
+                0x0000000010011274                hci_le_set_ext_advertising_parameters
+                0x000000001001127c                hci_le_set_advertise_enable
+                0x0000000010011284                hci_le_set_scan_response_data
+                0x000000001001128c                hci_le_set_advertising_data
+                0x0000000010011294                hci_le_set_advertising_parameters
+                0x000000001001129c                hci_le_set_random_address
+                0x00000000100112a4                hci_le_read_buffer_size
+                0x00000000100112ac                hci_disconnect
+ .rodata        0x00000000100112b4       0x24 ..\..\libs\ble\libbtstack.a(bb_sche.o)
  .rodata.bb.tbl
-                0x0000000010011524       0x81 ..\..\libs\ble\libbtstack.a(rf_mate.o)
- *fill*         0x00000000100115a5        0x3 
- .rodata        0x00000000100115a8       0xdc ..\..\libs\ble\libbtstack.a(hct_msg.o)
-                0x00000000100115a8                hci_cmd_desc_root_tab
-                0x00000000100115e8                hci_evt_desc_tab
-                0x00000000100115f8                hci_evt_le_desc_tab
-                0x0000000010011608                hci_cmd_desc_tab_vs
-                0x0000000010011618                hci_cmd_desc_tab_le
-                0x0000000010011664                hci_cmd_desc_tab_stat_par
-                0x0000000010011664                hci_cmd_desc_tab_info_par
-                0x0000000010011670                hci_cmd_desc_tab_ctrl_bb
- .rodata        0x0000000010011684       0x20 ..\..\libs\ble\libbtstack.a(mgr_proc.o)
+                0x00000000100112d8       0x81 ..\..\libs\ble\libbtstack.a(rf_mate.o)
+ *fill*         0x0000000010011359        0x3 
+ .rodata        0x000000001001135c       0xdc ..\..\libs\ble\libbtstack.a(hct_msg.o)
+                0x000000001001135c                hci_cmd_desc_root_tab
+                0x000000001001139c                hci_evt_desc_tab
+                0x00000000100113ac                hci_evt_le_desc_tab
+                0x00000000100113bc                hci_cmd_desc_tab_vs
+                0x00000000100113cc                hci_cmd_desc_tab_le
+                0x0000000010011418                hci_cmd_desc_tab_stat_par
+                0x0000000010011418                hci_cmd_desc_tab_info_par
+                0x0000000010011424                hci_cmd_desc_tab_ctrl_bb
+ .rodata        0x0000000010011438       0x20 ..\..\libs\ble\libbtstack.a(mgr_proc.o)
  .rodata.le.ll_cntl.tbl
-                0x00000000100116a4      0x118 ..\..\libs\ble\libbtstack.a(ll_proc.o)
-                0x00000000100116a4                ll_msg_tbl
-                0x000000001001178c                ll_hci_cmd_tbl
+                0x0000000010011458      0x118 ..\..\libs\ble\libbtstack.a(ll_proc.o)
+                0x0000000010011458                ll_msg_tbl
+                0x0000000010011540                ll_hci_cmd_tbl
  .rodata.bb.tbl
-                0x00000000100117bc       0x1c ..\..\libs\ble\libbtstack.a(ble.o)
-                0x00000000100117bc                ble_ctl
+                0x0000000010011570       0x1c ..\..\libs\ble\libbtstack.a(ble.o)
+                0x0000000010011570                ble_ctl
  .rodata.str1.4
-                0x00000000100117d8       0x1c ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
+                0x000000001001158c       0x1c ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
                                          0x2a (size before relaxing)
- .rodata        0x00000000100117f4       0x58 ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
- .rodata        0x000000001001184c       0x20 ..\..\libs\ble\libbtstack.a(vs_proc.o)
+ .rodata        0x00000000100115a8       0x58 ..\..\libs\ble\libbtstack.a(l2cap_signaling.o)
+ .rodata        0x0000000010011600       0x20 ..\..\libs\ble\libbtstack.a(vs_proc.o)
  *(.srodata*)
- .srodata       0x000000001001186c       0x18 ..\..\libs\ble\libbtstack.a(mgr.o)
- .srodata       0x0000000010011884        0x5 ..\..\libs\ble\libbtstack.a(ll_adv.o)
- *fill*         0x0000000010011889        0x3 
- .srodata       0x000000001001188c        0x8 ..\..\libs\ble\libbtstack.a(hct_msg.o)
-                0x000000001001188c                hci_evt_dbg_desc_tab
-                0x0000000010011890                hci_cmd_desc_tab_lk_ctrl
+ .srodata       0x0000000010011620       0x18 ..\..\libs\ble\libbtstack.a(mgr.o)
+ .srodata       0x0000000010011638        0x5 ..\..\libs\ble\libbtstack.a(ll_adv.o)
+ *fill*         0x000000001001163d        0x3 
+ .srodata       0x0000000010011640        0x8 ..\..\libs\ble\libbtstack.a(hct_msg.o)
+                0x0000000010011640                hci_evt_dbg_desc_tab
+                0x0000000010011644                hci_cmd_desc_tab_lk_ctrl
  *(.rela*)
  .rela.text.clk_clk32k_rtc_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.clk_saradc_clk_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.clk_clk2m_ks_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.wk0_edge_capture_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gpio_edge_capture_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gpio_edge_capture_config_custom
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gpio_set_reset_pin
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gpio_edge_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.hsuart_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.hsuart_baud_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.hsuart_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.keyscan_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ledc_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_pwroff.mode2
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.lp_wakeup
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_get_wakeup_source
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_wk0_wakeup_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_gpio_wakeup_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_gpio_wakeup_config_custom
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_wakeup_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_pwroff.mode1
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.proc_do
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.sleep
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.rtc_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.saradc_mic_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.saradc_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.saradc_deinit
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.saradc_set_baud
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.saradc_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_periph.saradc.get_data
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.spi_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.tmr_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_pic_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_baud_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.app.proc.func
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.func
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.app.proc.bt
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.func.bt
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.func.idle
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr_pwroff_wakeup_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lowpwr.pwroff
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_get_scan_data
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_get_adv_data
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_adv_param_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_client_event_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_client_notify_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_client_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_scan_en_test
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_write_test
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_write_to_server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_read_test
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_txpkt_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_periph_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_sm_param_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_scan_param_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_central_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bsp_ble_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_enter_sleep_proc
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_exit_sleep_proc
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.app.proc.ble
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.ble.sleep
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_service_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.service_write_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.service_read_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.service_notify_event
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_user_service_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bsp.param
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bsp.param.fota
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.timer
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bsp.sys.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
- .rela.text.user_uart_putchar
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.isr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_cmd_buff_error
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_cmd_success_feedback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_transfer_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_periph.uart.send
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_transfer_rx_event
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.startup.main
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_get_local_bd_addr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bt_rf_get_param
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.rf.txpwr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_get_link_info
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble_put_link_info
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.thread_create_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.xosc_get_xcfg
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.param_xosc_write
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.uart_debug_init_callback
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_mic_power
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_mic_analog_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step0_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step0_waiting
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step0_run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step1_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step1_waiting
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micdc_trim_step1_run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.micin_config
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micin_trim_step0_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micin_trim_step0_waiting
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micin_trim_step1_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_micin_trim_step2_run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.audio_mic_trim_proc
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_loadpage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_next_freepage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_factory
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_writepage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_movepage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_erase
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_release
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_savepage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_check_loadpage
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_move_allpages
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_sync
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_release_all
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_read
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_read8
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_read16
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_read32
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_write
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_write8
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_write16
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_write32
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_clear
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.cm_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.spiflash.id
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.spiflash
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.xcfg_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.delay
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.platform_main
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.main_startup
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.irq
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.irq.wpt
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sys_irq_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.soft_irq_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bthw_irq_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.watch_point_set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.usb_irq_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sys_timer_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.thread_timer_create
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.thread_btstack_create
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.thread_driver_create
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.thread_main_entry
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.startup.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.thread.driver.usb
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.thread.driver.vs
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.thread.driver.enter
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.pll0_vco_band_trimming
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.pll0_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.pll_ext_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.vddio_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.vddio_set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.core_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.core_set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.lvd_get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.trim.lvd_set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.pmu_voltage_configure
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.pmu_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
- .rela.reset    0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
- .rela.vector   0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
+ .rela.reset    0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
+ .rela.vector   0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.lock_code_usbdev
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.patch_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.lp.sleep
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.rc2m_clk_nhz_cal
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sys_clk
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.api
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.run_loop
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
- .rela.text     0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
+ .rela.text     0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.txpkt
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.txpkt.flush
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hci_init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.setup
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hci
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hci.conn
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.hci
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hci_send
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hci.run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.hci
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.hci_recv
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.aes
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.rau_run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gap.rau.update
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.request
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.ble.sm
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gap.rau.mode
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.run
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.pdu
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.event
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.gap.rau_set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.delete_bonding
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.get
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.read
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.remove
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.remove_all
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.add
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.db.dump
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.ntf_do
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.ntf
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.indicate
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.client.request_can_send
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.client.write_req
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.client
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.client
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.sm.server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.server.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.server.packet_handler
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.event_handler
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.server.indicate
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.register_client
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.register_server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.dispatch_server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.dispatch_client
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.send.dispatch_server
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.att.mtu_request
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.h3c
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.h3c
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.util
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.btstack.hci.h3c.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
- .rela.rodata   0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
+ .rela.rodata   0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.stack.uart_isr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.hal
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.sleep
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.api
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.ret.bb.sleep
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.rodata.stack.api
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.conn.update
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.max_mtu
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.adv_data.set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.scan
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.adv_interval.set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.adv_param.set
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.api.regist
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.set_static_addr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.single_mode
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.rf.tx_tone
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.mgr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.rodata.le.mgr_cntl.tbl
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_adv.con
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_adv
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_cntl.pdu
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_cntl.send
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.rodata.le.ll_cntl.tbl
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_cntl
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.ll_cntl.start
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.ble.isr.con.end
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.ble.isr.con.rx_desc
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.bb.buf
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.le.stack
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.bb.isr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.bb
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bb.aes
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.stack.ble.setup
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.rfphy
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.rfphy.other
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_sleep.rfphy.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_text.ble.isr
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.com_rodata.bb.tbl
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.ble.var.init
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
  .rela.text.bb.vs.fcc
-                0x0000000010011894        0x0 Output\obj\driver\driver_clk.o
-                0x0000000010011894        0x4 LONG 0x0
-                0x0000000010011a00                . = ALIGN (0x200)
- *fill*         0x0000000010011898      0x168 
+                0x0000000010011648        0x0 Output\obj\driver\driver_clk.o
+                0x0000000010011648        0x4 LONG 0x0
+                0x0000000010011800                . = ALIGN (0x200)
+ *fill*         0x000000001001164c      0x1b4 
 
 .stack          0x0000000000010800      0x400
                 0x0000000000010800                __irq_stack_start = .
@@ -4059,7 +4052,7 @@ LOAD Output\obj\project\ble_peripheral\strong_symbol.o
  *fill*         0x0000000000010800      0x400 
                 0x0000000000010c00                __irq_stack = .
                 0x0000000000000400                __irq_stack_size = (__irq_stack - __irq_stack_start)
-                0x0000000000010600                __bank_size = SIZEOF (.flash)
+                0x0000000000010400                __bank_size = SIZEOF (.flash)
                 0x0000000010000200                __comm_lma = LOADADDR (.comm)
                 0x0000000000000f00                __comm_size = SIZEOF (.comm)
                 0x0000000010001100                __pdn_comm_lma = LOADADDR (.pdn_comm)

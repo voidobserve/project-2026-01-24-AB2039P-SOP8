@@ -338,7 +338,7 @@ void uart_transfer_rx_event(void)
                     {
                         // 如果已经连接，断开当前连接
                         ble_disconnect(ble_cb.con_handle);
-                        my_printf("ble disconnect\n");
+                        // my_printf("ble disconnect\n");
                     }
 
                     ble_adv_en();
@@ -355,7 +355,7 @@ void uart_transfer_rx_event(void)
                     {
                         // 如果已经连接，断开当前连接
                         ble_disconnect(ble_cb.con_handle);
-                        my_printf("ble disconnect\n");
+                        // my_printf("ble disconnect\n");
                     }
 
                     ble_adv_dis();

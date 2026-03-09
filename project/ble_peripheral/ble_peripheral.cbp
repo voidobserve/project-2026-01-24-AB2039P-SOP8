@@ -11,6 +11,9 @@
 				<Option object_output="Output/obj/" />
 				<Option type="1" />
 				<Option compiler="riscv32" />
+				<Compiler>
+					<Add directory="user" />
+				</Compiler>
 			</Target>
 		</Build>
 		<Compiler>
