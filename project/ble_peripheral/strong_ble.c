@@ -1,22 +1,24 @@
 /**********************************************************************
-*
-*   strong_ble.c
-*   定义库里面部分WEAK函数的Strong函数，动态关闭库代码
-***********************************************************************/
+ *
+ *   strong_ble.c
+ *   定义库里面部分WEAK函数的Strong函数，动态关闭库代码
+ ***********************************************************************/
 #include "include.h"
 
+#include "user_config.h"
+
 #if (!LE_DUT_UART_EN)
-STRONG void hci_fcc_init(void){}
-STRONG bool bt_uart_isr(void) {return false;}
+STRONG void hci_fcc_init(void) {}
+STRONG bool bt_uart_isr(void) { return false; }
 #endif
 
 #if !LE_SM_EN
-STRONG void ble_sm_server_event_do(uint8_t *packet, uint16_t size){}
-STRONG void ble_sm_client_event_do(uint8_t *packet, uint16_t size){}
-STRONG void sm_send_security_request(uint16_t con_handle){}
-STRONG void sm_request_pairing(uint16_t con_handle){}
-STRONG void sm_passkey_input(uint16_t con_handle, uint32_t passkey){}
-STRONG uint32_t sm_passkey_input_get(void){return 0;}
+STRONG void ble_sm_server_event_do(uint8_t *packet, uint16_t size) {}
+STRONG void ble_sm_client_event_do(uint8_t *packet, uint16_t size) {}
+STRONG void sm_send_security_request(uint16_t con_handle) {}
+STRONG void sm_request_pairing(uint16_t con_handle) {}
+STRONG void sm_passkey_input(uint16_t con_handle, uint32_t passkey) {}
+STRONG uint32_t sm_passkey_input_get(void) { return 0; }
 #endif
 
 STRONG void ble_get_local_bd_addr(u8 *addr)
@@ -26,7 +28,8 @@ STRONG void ble_get_local_bd_addr(u8 *addr)
 
 STRONG const uint8_t *bt_rf_get_param(void)
 {
-    if(xcfg_cb.bt_rf_param_en) {
+    if (xcfg_cb.bt_rf_param_en)
+    {
         return (const uint8_t *)&xcfg_cb.rf_pa_gain;
     }
 
@@ -70,9 +73,19 @@ STRONG bool ble_sm_pairing_support(void)
     return LE_SM_EN;
 }
 
+// 控制断开连接后是否自动打开广播
 STRONG bool ble_disconnected_restart_adv(void)
 {
-    return LE_DISCONN_RESTART_ADV_EN;
+    // return LE_DISCONN_RESTART_ADV_EN;
+
+    if (user_data.is_ble_adv_en)
+    { // 蓝牙断开连接之后，自动打开广播
+        return 1;
+    }
+    else
+    { // 蓝牙断开连接之后，不自动打开广播
+        return 0;
+    }
 }
 
 STRONG bool ble_rx_exit_sleep(void)

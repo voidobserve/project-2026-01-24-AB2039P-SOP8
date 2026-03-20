@@ -1,6 +1,7 @@
 #include "include.h"
 #include "driver_lowpwr.h"
 #include "bsp_saradc_key.h"
+#include "user_config.h"
 
 xcfg_cb_t xcfg_cb;
 sys_cb_t sys_cb AT(.buf.bsp.sys_cb);
@@ -206,6 +207,7 @@ void bsp_sys_init(void)
     bsp_tsensor_init();
 #endif
 
+    user_init();
     printf("%s\n",__func__);
 
     func_cb.sta = FUNC_BT;

@@ -24,18 +24,8 @@
 
 #define CMD_FRAME_FIX_LEN (CMD_HEADER_LEN + 2) // 帧长度 (固定长度，帧头 3 + 命令字 1 + 数据 1)
 
-// 指令码定义
-typedef enum
-{
-    CMD_NONE = 0x00,
 
-    CMD_ADV_EN_PREFIX = 0x01, // 打开广播
-    CMD_ADV_EN_SUFFIX = 0x01,
 
-    CMD_ADV_DIS_PREFIX = 0x02, // 关闭广播
-    CMD_ADV_DIS_SUFFIX = 0x02,
-} cmd_code_t;
-  
 // 解析状态机
 typedef enum
 {
@@ -119,7 +109,7 @@ void uart_cmd_success_feedback(void)
     for (i = 0; i < uart_cmd_buff_recved_len; i++)
     {
         while (uart_get_flag(UART, UART_IT_TX) != SET)
-        ; // 等待发送完成
+            ; // 等待发送完成
         uart_send_data(UART, uart_cmd_buff[i]);
     }
 }
@@ -234,6 +224,22 @@ void uart_transfer_tx_buff(uint8_t *buff, uint32_t len)
     }
 }
 
+// 根据传参，发送一帧对应的控制命令
+void uart_send_cmd(cmd_code_t cmd_prefix, cmd_code_t cmd_suffix)
+{
+    u8 buf[] = {
+        CMD_FRAME_HEADER_1,
+        CMD_FRAME_HEADER_2,
+        CMD_FRAME_HEADER_3,
+        0xFF, // cmd_prefix
+        0xFF, // cmd_suffix
+    };
+    buf[3] = cmd_prefix;
+    buf[4] = cmd_suffix;
+
+    uart_transfer_tx_buff(buf, sizeof(buf));
+}
+
 // 由 func.c -> func_process() 调用
 void uart_transfer_rx_event(void)
 {
@@ -252,7 +258,7 @@ void uart_transfer_rx_event(void)
         // 从机接收串口然后通过 BLE NOTIFY 到主机 
         service_notify_event(ptr, len); 
     }
-#endif 
+#endif
 
     u8 byte = 0;
     u32 ret = 0;
@@ -341,6 +347,9 @@ void uart_transfer_rx_event(void)
                         // my_printf("ble disconnect\n");
                     }
 
+                    user_data.is_ble_adv_en = 1;
+                    user_data_write(); // 将数据写回flash
+
                     ble_adv_en();
                     uart_cmd_buff_write_byte(byte);
                     uart_cmd_success_feedback();
@@ -357,6 +366,9 @@ void uart_transfer_rx_event(void)
                         ble_disconnect(ble_cb.con_handle);
                         // my_printf("ble disconnect\n");
                     }
+
+                    user_data.is_ble_adv_en = 0;
+                    user_data_write(); // 将数据写回flash
 
                     ble_adv_dis();
                     uart_cmd_buff_write_byte(byte);

@@ -1,5 +1,5 @@
 #include "include.h"
-
+#include "user_config.h"
 
 AT(.rodata.adv)
 const uint8_t adv_data_const[] = {
@@ -91,8 +91,17 @@ void ble_adv_param_init(void)
     adv_info.scan_rsp_len = ble_get_scan_data(adv_info.scan_rsp, sizeof(adv_info.scan_rsp));
     adv_info.adv_int_min = adv_info.adv_int_max = 0x100;
     adv_info.adv_type = ADV_TYPE_IND;
-    adv_info.adv_en = 1;
+    /*
+        根据flash中存放的数据，来决定上电之后是否要打开广播
+    */
+    if (user_data.is_ble_adv_en)
+    {
+        adv_info.adv_en = 1; // 启用广播
+    }
+    else
+    {
+        adv_info.adv_en = 0; // 不启用广播
+    }    
     adv_info.channel_map = ADV_ALL_CHNLS_EN;
-
     ble_set_adv_param(&adv_info);
 }

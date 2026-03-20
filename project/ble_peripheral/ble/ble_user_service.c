@@ -1,4 +1,5 @@
 #include "include.h"
+#include "user_config.h"
 
 static att_service_handler_t       fff0_service;
 static uint16_t fff2_client_config;
@@ -31,6 +32,9 @@ static void ble_event_callback(uint8_t event_type, uint8_t *param, uint16_t size
 {
     switch(event_type){
         case BLE_EVT_CONNECT:{
+#if USER_DEBUG_ENABLE
+            my_printf("BLE_EVT_CONNECT\n");
+#endif
             memcpy(&ble_cb.con_handle, &param[7], 2);
             printf("-->BLE_EVENT_CONNECTED:%x\n",ble_cb.con_handle);
         #if SYS_SLEEP_EN
@@ -41,6 +45,9 @@ static void ble_event_callback(uint8_t event_type, uint8_t *param, uint16_t size
         } break;
 
         case BLE_EVT_DISCONNECT:{
+#if USER_DEBUG_ENABLE
+            my_printf("BLE_EVT_DISCONNECT\n");
+#endif
 #if BSP_UART_DEBUG_EN
             uint16_t con_handle;
             uint8_t disc_reason = param[2];
@@ -49,6 +56,18 @@ static void ble_event_callback(uint8_t event_type, uint8_t *param, uint16_t size
 #endif
             ble_cb.con_handle = 0;
             fff2_client_config = CCCD_DFT;
+
+            /*
+                测试发现，主机开始配对后，主机断开当前连接的从机，
+                有概率会导致从机的广播不会再打开
+            */ 
+            if (user_data.is_ble_adv_en) {
+                ble_adv_en();
+            } else {
+                ble_adv_dis();
+            }
+
+
         #if SYS_SLEEP_EN
             if (sys_cb.sleep_enter) {
                 sys_cb.sleep_prevent = true;
@@ -116,8 +135,39 @@ static int service_write_callback(uint16_t con_handle, uint16_t attribute_handle
         print_r(buffer, buffer_size);
 
 #if BSP_UART_TRANSFER_EN
-        // 从机接收到主机的BLE WRITE，将数据通过串口发出
-        uart_transfer_tx_buff(buffer, buffer_size);
+
+        // USER_TO_DO 这里要加入指令的判断，如果是指令，则处理；如果不是指令，则转发
+        if (buffer_size >= 5 &&
+            buffer[0] == 0x80 && 
+            buffer[1] == 0x02 &&
+            buffer[2] == 0x02 &&
+            buffer[3] == 0x02 && 
+            buffer[4] == 0x02
+        ) { // 收到了关闭广播的控制命令
+            user_data.is_ble_adv_en = 0; 
+            user_data_write();
+#if USER_DEBUG_ENABLE
+            my_printf("ble recv adv dis\n"); // 标识收到了主机发送过来的关闭广播的指令
+#endif
+            // 之后等主机断开连接，在断开连接事件相关的回调函数中处理
+            // 等主机断开连接，之后由 ble_disconnected_restart_adv() 控制广播是否自动打开
+            uart_send_cmd(CMD_ADV_DIS_PREFIX, CMD_ADV_DIS_SUFFIX);
+        }
+        else { // 没有收到控制命令        
+            // 从机接收到主机的BLE WRITE，将数据通过串口发出
+            uart_transfer_tx_buff(buffer, buffer_size);
+        } 
+
+#if USER_DEBUG_ENABLE
+        // 打印收到的数据
+        // u16 i;
+        // for (i = 0; i < buffer_size; i++)
+        // {
+        //     my_printf("%02x ", buffer[i]);
+        // }
+        // my_printf("\n");
+#endif
+
         // service_notify_event_test(buffer, buffer_size);
 #endif
 
