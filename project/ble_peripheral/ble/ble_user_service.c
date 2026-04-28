@@ -42,6 +42,40 @@ static void ble_event_callback(uint8_t event_type, uint8_t *param, uint16_t size
                 sys_cb.sleep_prevent = true;
             }
         #endif
+            /*
+                连接成功之后，从机需要判断主机的地址是否跟记忆的一样
+                如果地址一致，则继续执行，否则，将地址保存，并返回
+            */ 
+            // 获取主机地址
+            uint8_t addr[6]; // MAC地址
+            memcpy(addr, &param[1], 6); // 地址内容
+#if USER_DEBUG_ENABLE
+            // 传输过来是大端格式，这里按小端格式打印：
+            my_printf("Connected to Host Address: %02X:%02X:%02X:%02X:%02X:%02X\n", 
+                addr[5], addr[4], addr[3], addr[2], addr[1], addr[0]);
+#endif
+            if (user_data.is_peer_addr_valid == 0) {
+                // 如果之前记录的地址无效
+                memcpy(user_data.peer_addr, addr, 6);
+                user_data.is_peer_addr_valid = 1; // 表示记录的地址有效
+                user_data_write();
+            } else {
+                // 如果之前记录的地址有效，跟当前连接上的主机的地址进行比较
+
+                if (memcmp(user_data.peer_addr, addr, 6) == 0) {
+                    // 如果地址一致
+#if USER_DEBUG_ENABLE
+                    my_printf("host addr is valid\n");
+#endif
+                } else {
+                    // 如果地址不一致，断开与主机的连接
+#if USER_DEBUG_ENABLE
+                    my_printf("host addr is invalid\n");
+#endif
+                    ble_disconnect(ble_cb.con_handle);
+                }
+            }
+
         } break;
 
         case BLE_EVT_DISCONNECT:{
@@ -150,7 +184,7 @@ static int service_write_callback(uint16_t con_handle, uint16_t attribute_handle
             my_printf("ble recv adv dis\n"); // 标识收到了主机发送过来的关闭广播的指令
 #endif
             // 之后等主机断开连接，在断开连接事件相关的回调函数中处理
-            // 等主机断开连接，之后由 ble_disconnected_restart_adv() 控制广播是否自动打开
+            // 等主机断开连接，之后由 ble_disconnected_restart_adv()，根据 user_data.is_ble_adv_en 控制广播是否自动打开
             uart_send_cmd(CMD_ADV_DIS_PREFIX, CMD_ADV_DIS_SUFFIX);
         }
         else { // 没有收到控制命令        

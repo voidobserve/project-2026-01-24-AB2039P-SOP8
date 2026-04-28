@@ -19,13 +19,16 @@ void user_data_read(void)
         user_data.valid = USER_DATA_VALID_VAL;
         // user_data.is_ble_adv_en = 1; // 默认使能从机的广播
         user_data.is_ble_adv_en = 0; // 默认不打开从机的广播
+
+        user_data.is_peer_addr_valid = 0;
+        memset(user_data.peer_addr, 0, sizeof(user_data.peer_addr));
         user_data_write();           // 将数据写回flash
     }
 
 #if USER_DEBUG_ENABLE
 
     // 打印从flash中读出的数据：
-    printf("user_data.is_ble_adv_en == %u\n", (u16)user_data.is_ble_adv_en);
+    // printf("user_data.is_ble_adv_en == %u\n", (u16)user_data.is_ble_adv_en);
 
 #endif
 }
@@ -38,4 +41,5 @@ void user_init(void)
 
 void user_main(void)
 {
+    
 }

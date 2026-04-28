@@ -13,10 +13,11 @@ typedef struct __attribute__((packed))
 {
     u8 valid;         // 校验，用于验证是不是第一次上电，之前写入的数据是否有效
     u8 is_ble_adv_en; // 从机的广播功能是否使能
+
+    u8 is_peer_addr_valid; // 记录的蓝牙地址是否有效
+    u8 peer_addr[6];       // 记录连接的、对方的蓝牙地址
 } user_data_t;
 extern volatile user_data_t user_data;
-
-
 
 void user_init(void);
 void user_main(void);

@@ -290,6 +290,10 @@
 		<Unit filename="strong_symbol.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="user/user_config.h" />
+		<Unit filename="user/user_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="xcfg.h" />
 		<Extensions />
 	</Project>
