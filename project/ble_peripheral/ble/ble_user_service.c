@@ -170,7 +170,7 @@ static int service_write_callback(uint16_t con_handle, uint16_t attribute_handle
 
 #if BSP_UART_TRANSFER_EN
 
-        // USER_TO_DO 这里要加入指令的判断，如果是指令，则处理；如果不是指令，则转发
+        // 这里要加入指令的判断，如果是指令，则处理；如果不是指令，则转发
         if (buffer_size >= 5 &&
             buffer[0] == 0x80 && 
             buffer[1] == 0x02 &&

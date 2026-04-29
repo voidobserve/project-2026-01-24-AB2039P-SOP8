@@ -340,7 +340,8 @@ void uart_transfer_rx_event(void)
                 if (uart_cmd_buff_read_last_byte() == CMD_ADV_EN_PREFIX &&
                     byte == CMD_ADV_EN_SUFFIX)
                 {
-                    // USER_TO_DO 如果收到了打开广播，需要清除记忆的地址
+                    // 如果收到了打开广播，需要清除记忆的地址
+                    user_data.is_peer_addr_valid = 0; // 表示自身记录的地址无效
 
                     if (ble_cb.con_handle != 0)
                     {
